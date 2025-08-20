@@ -26,7 +26,7 @@ By using the EasyParcel Shopify APP, you can enjoy:
 ## Start Integrating and Choose Fulfillment Method
 Log into your EasyParcel account, go to **Integrations**, click **Add New Store**, and select **Shopify**.  
 
-![Integration Navigation](sg/Pictures/SHI1.png)
+![Integration Navigation](pictures/SHI1.png)
 
 ---
 
@@ -45,7 +45,7 @@ We highly recommend using the **EasyParcel Shopify APP**, as it enables:
 Fill in your **Shop Name** and **Shopify Store URL**.  
 Click **Next Step** to connect your Shopify store.  
 
-![Step 1 Screenshot](sg/Pictures/SHI2.png)  
+![Step 1 Screenshot](pictures/SHI2.png)  
 
 ---
 
@@ -53,14 +53,14 @@ Click **Next Step** to connect your Shopify store.
 EasyParcel will redirect you to your Shopify store panel.  
 A prompt will appear confirming successful integration. Click **OK**.  
 
-![Step 2 Screenshot](sg/Pictures/SHI2.png)  
+![Step 2 Screenshot](pictures/SHI3.png)  
 
 ---
 
 ### Step 3  
 Go to your Shopify admin panel → **Apps** → Search for **EasyParcel - Delivery Made Easy** → Click **Install**.  
 
-![Step 3 Screenshot](images/shopify-step3.png)  
+![Step 3 Screenshot](pictures/SHI4.png)  
 
 ---
 
@@ -68,7 +68,7 @@ Go to your Shopify admin panel → **Apps** → Search for **EasyParcel - Delive
 You’ll be redirected to the EasyParcel settings under the **Getting Started** tab.  
 Read through and click **Start Setup**.  
 
-![Step 4 Screenshot](images/shopify-step4.png)  
+![Step 4 Screenshot](pictures/SHI5.png)  
 
 ---
 
@@ -77,7 +77,7 @@ Go to the **Shipping Setting** tab to fill in your details.
 - Select your shipping country.  
 - Insert your **Integration ID** (copied from EasyParcel).  
 
-![Step 5 Screenshot](images/shopify-step5.png)  
+![Step 5 Screenshot](pictures/SHI6.png)  
 
 ---
 
@@ -85,7 +85,7 @@ Go to the **Shipping Setting** tab to fill in your details.
 Review the auto-filled **Sender’s Details**.  
 Edit if needed, then click **Save**.  
 
-![Step 6 Screenshot](images/shopify-step6.png)  
+![Step 6 Screenshot](pictures/SHI7.png)  
 
 ---
 
@@ -96,43 +96,11 @@ In Shopify admin:
 
 ⚠️ *If not set, the receiver_contact may be empty → AWB cannot be generated.*  
 
-![Step 7 Screenshot](images/shopify-step7.png)  
-
----
-
-## Import Version  
-Alternatively, you can import Shopify orders into EasyParcel and fulfill them from there.  
-
-### Step 1  
-Select **Import Version**, enter your **Shop Name** and **Shopify Store URL**, then click **Next Step**.  
-
-![Import Step 1 Screenshot](images/shopify-import-step1.png)  
-
----
-
-### Step 2  
-Fill in the following details:  
-- Weight Unit  
-- Auto Import  
-- Auto Merge  
-- Item Category  
-- Courier Preferences:  
-  - **Cheapest Service** → System selects the cheapest available service.  
-  - **Courier Company** → Choose a preferred courier and fallback courier.  
-
-![Import Step 2 Screenshot](images/shopify-import-step2.png)  
-
----
-
-### Step 3  
-Enable marketing tools to boost visibility. Click **Submit**.  
-
-![Import Step 3 Screenshot](images/shopify-import-step3.png)  
+![Step 7 Screenshot](pictures/SHI8.png)  
 
 ---
 
 ## Notes
 - For **APP Version**, ensure customer phone numbers are required during checkout.  
-- Integration is **free of charge**.  
-- Both APP and Import versions help automate fulfillment but **APP Version is highly recommended**.  
+- Integration is **free of charge**.   
 
