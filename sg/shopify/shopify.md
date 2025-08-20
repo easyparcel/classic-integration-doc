@@ -45,7 +45,7 @@ We highly recommend using the **EasyParcel Shopify APP**, as it enables:
 Fill in your **Shop Name** and **Shopify Store URL**.  
 Click **Next Step** to connect your Shopify store.  
 
-![Step 1 Screenshot](images/shopify-step1.png)  
+![Step 1 Screenshot](sg/Pictures/SHI2.png)  
 
 ---
 
