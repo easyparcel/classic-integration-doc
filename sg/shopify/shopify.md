@@ -26,7 +26,7 @@ By using the EasyParcel Shopify APP, you can enjoy:
 ## Start Integrating and Choose Fulfillment Method
 Log into your EasyParcel account, go to **Integrations**, click **Add New Store**, and select **Shopify**.  
 
-![Integration Navigation](images/shopify-integration-navigation.png)
+![Integration Navigation](sg/Pictures/SHI1.png)
 
 ---
 
@@ -53,7 +53,7 @@ Click **Next Step** to connect your Shopify store.
 EasyParcel will redirect you to your Shopify store panel.  
 A prompt will appear confirming successful integration. Click **OK**.  
 
-![Step 2 Screenshot](images/shopify-step2.png)  
+![Step 2 Screenshot](sg/Pictures/SHI2.png)  
 
 ---
 
