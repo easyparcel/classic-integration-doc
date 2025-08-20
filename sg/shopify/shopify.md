@@ -3,8 +3,7 @@
 ## Table of Contents
 - [Introduction](#introduction)  
 - [Start Integrating and Choose Fulfillment Method](#start-integrating-and-choose-fulfillment-method)  
-  - [Shopify APP Version (Seamless) - Recommended](#shopify-app-version-seamless---recommended)  
-  - [Import Version](#import-version)  
+  - [Shopify APP Version (Seamless) - Recommended](#shopify-app-version-seamless---recommended)   
 - [Notes](#notes)  
 
 ---
