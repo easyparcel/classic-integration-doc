@@ -343,18 +343,10 @@ May refer to trackxlogis document or you can re-add by shipping zone edit -> add
 <details>
 <summary><strong>Q: Does Auto fulfilment courier support multiple couriers at the same time</strong></summary>
 
-Currently, we don't support multiple couriers at the same time
+If you allow customer to select our courier during check page then it will fulfil based on customer selected courier, while if using custom rate then currently  only able to select one
 
 </details>
 
-<details>
-<summary><strong>Q: Where are the order details stored in database?</strong></summary>
-
-It is stored in order_meta. To replicate the no airway bill scenario, you may delete the `_ep_awb`'s meta value
-
-*There will be another set of order details in postmeta table. You can ignore it, if you want to replicate the no airway bill scenario*
-
-</details>
 
 <details>
 <summary><strong>Q: Does WooCommerce mobile app support our plugin</strong></summary>
