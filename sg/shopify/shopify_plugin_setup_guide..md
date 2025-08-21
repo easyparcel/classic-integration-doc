@@ -14,7 +14,7 @@ This guide will walk you through integrating EasyParcel with Shopify using the A
 
 ---
 
-**Step 2:** Fill in your **Shop Name** and **Shopify Store URL**. Then, click **Next Step** to connect your Shopify store.  
+**Step 2:** Select "Plugin Version", and fill in your **Shop Name** and **Shopify Store URL**. Then, click **Next Step** to connect your Shopify store.  
 
 ![Step 1 Screenshot](pictures/SHI2.png)  
 
