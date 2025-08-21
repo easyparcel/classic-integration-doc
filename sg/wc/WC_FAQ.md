@@ -203,13 +203,6 @@ This is acceptable for troubleshooting purposes.
 </details>
 
 <details>
-<summary><strong>Q: Why is the parcel dimensions in API log different from the dimensions set in WooCommerce product</strong></summary>
-
-**A:** Check the unit set in WooCommerce. If it is not cm, it will be converted and shown in cm in the API log.
-
-</details>
-
-<details>
 <summary><strong>Q: Unable to edit courier services</strong></summary>
 
 The courier services are can't be edited once you save changes, you may need to delete to add new courier service to change
@@ -219,30 +212,10 @@ Courier service type only able to be select when adding new service
 </details>
 
 <details>
-<summary><strong>Q: "Courier Setting > Locations not covered by your other zones"</strong></summary>
-
-**Solution:**
-- Check their version, if using legacy (e.g. v1.6.8.18) ask them to switch to
-- Check if this option is enabled
-
-</details>
-
-<details>
-<summary><strong>Q: Courier Setting > Locations not covered by your other zones (for WooCommerce official plugin in extension)</strong></summary>
-
-**Solution:**
-Try switching to the plugin from our portal instead
-
-Switch from EasyParcel Shipping from this to our version
-
-</details>
-
-<details>
 <summary><strong>Q: No courier service to select when trying to fulfil order</strong></summary>
 
 **Solutions:**
-- Check api log, could be because weight is 0, no shipping postcode, etc
-- Check EasyParcel Shipping page. If not filled up, API will not get any requests
+- Check EasyParcel Shipping page if all the details if setup correctly, if yes but the issue presist, please contact our easyparcel integration support
 
 </details>
 
@@ -269,42 +242,22 @@ Due to recent Qxpress brand name changes, Qxpress will no longer be available as
 </details>
 
 <details>
-<summary><strong>Q: No courier show up, credit balance = 0.00, all API related information not available, no API log</strong></summary>
+<summary><strong>Q: No courier show up, credit balance = 0.00</strong></summary>
 
-**Check if its status 403 (Forbidden) issue:**
-
-```php
-// easiest way to check is using easyparcel shipping settings page
-// in check credit balance api call, log the response code to check
-
-wc_get_logger()->info(wp_remote_retrieve_response_code($r));
-// then check in woocommerce status -> log
-```
-
-**To suggest fix to customer:**
-https://www.cloudways.com/blog/wordpress-403-forbidden-error/#fixes
-
-</details>
-
-<details>
-<summary><strong>Q: Why can I retrieve all couriers using my API key in log.php but only see cargo couriers displayed?</strong></summary>
-
-If the volumetric weight calculated using the volumetric calculator is higher than the actual weight, the volumetric weight will be used as the final weight.
-
-</details>
-
-<details>
-<summary><strong>Q: If shipping courier, flat rate can't show at checkout</strong></summary>
-
-**A:** But it got show at api log, It mind due to user woocommerce problem so it won't display any rate even if is a flat rate
+  Please contact easyparcel integration support
 
 </details>
 
 <details>
 <summary><strong>Q: Undefined array error appears at checkout page</strong></summary>
 
+<img width="899" height="191" alt="image" src="https://github.com/user-attachments/assets/c139a45e-3502-45d8-9de0-a72954d2307c" />
+<img width="1280" height="567" alt="image" src="https://github.com/user-attachments/assets/c8df429c-ce3d-4ade-8984-e02cc300572e" />
+<img width="1149" height="863" alt="image" src="https://github.com/user-attachments/assets/e6e3a000-8e10-46cf-80e4-2d2b3c662695" />
+
 **Solution:**
-Ask customer to turn off debug mode on wp-config.php file
+Please check if Word press debug mode if turn on, if yes
+please to turn off debug mode on wp-config.php file
 
 Sample code:
 ```php
@@ -335,6 +288,10 @@ Due to recent Singpost brand name changes, Singpost will no longer be available 
 5. Select Speedpost as Courier Service
 6. Select the rate settings preferred
 7. Save Changes.
+
+<img width="1280" height="502" alt="image" src="https://github.com/user-attachments/assets/d1fa15df-715b-4c40-979d-be4a78e66e86" />
+<img width="1280" height="555" alt="image" src="https://github.com/user-attachments/assets/4a2f0c01-ca57-4090-b793-71987b5ddc77" />
+<img width="1280" height="760" alt="image" src="https://github.com/user-attachments/assets/edcb40e3-41ba-468c-9983-2ce71869d47b" />
 
 May refer to trackxlogis document or you can re-add by shipping zone edit -> add courier -> choose speedpost courier -> then save changes
 
