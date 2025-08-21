@@ -162,5 +162,7 @@ Edit if needed, then click **Save**.
 
 You've successfully set up EasyParcel Shopify integration using the App Version (Seamless)! You will now can fulfill orders directly from your Shopify App panel. 
 
+If you would like to add live rates to your Shopify checkout page, kindly refer to the following guide [How to Add Live Shipping Rates at Checkout for Shopify](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/live_rates_setup.md).
+
 If you have any questions or need further assistance, [check out our other articles](https://helpcentre-my.easyparcel.com/support/home) or reach out to our friendly support team. We're happy to help you every step of the way! 
 
