@@ -178,353 +178,42 @@ As a lot of customers mistakenly put their admin panel url instead
 </details>
 
 <details>
-<summary><strong>Q: It's fine to use customer's consumer key, consumer secret and shop url (if they have provided) to test integration on our own account when customer is facing import issue</strong></summary>
+<summary><strong>Q:If after contacting Shopify support, the EasyParcel live rate still won't show in checkout page</strong></summary>
 
-This is acceptable for troubleshooting purposes.
+**A:** Kindly deactivate and activate the account page in the EasyParcel Shopify App.
 
-</details>
-
-<details>
-<summary><strong>Q: If the customer shop url, consumer secret and consumer key is correct but still failed to import the order</strong></summary>
-
-**A:** Suggest them to delete the integration and integrate again to see if the issue is solved
+<img width="1280" height="424" alt="image" src="https://github.com/user-attachments/assets/a1f18135-aa1a-48e8-b6ed-cda499a2aacb" />
 
 </details>
 
 <details>
-<summary><strong>Q: If there is anyway to set a specific amount for delivery for our customers based on weight? For example, 1kg - 5kg will be Rm5, 5.1kg to 10kg will be Rm10</strong></summary>
+<summary><strong>Q:Branch not available that I want to drop off</strong></summary>
 
-**A:** No. Currently our plugin does not have this feature
-
-</details>
-
-<details>
-<summary><strong>Q: Some orders can't be imported to the system</strong></summary>
-
-**Requirements for order import:**
-- Order generated within 7 days
-- Order status is processing
-- Make sure product weight value is not empty
+**A:** You can drop off anywhere that the nearest branch near you,it won't affect anything on the shipping procedures as long as the parcel is scan into the courier system after drop off.
 
 </details>
 
 <details>
-<summary><strong>Q: Why is the parcel dimensions in API log different from the dimensions set in WooCommerce product</strong></summary>
+<summary><strong>Q:Fill in all correct detail in the order but the order wont appear in the app</strong></summary>
 
-**A:** Check the unit set in WooCommerce. If it is not cm, it will be converted and shown in cm in the API log.
+**A:** Check whether the order has a customer linked to it, as having a customer is required. Aadd a customer to the order so it can be viewed in the EasyParcel Shopify App.
 
-</details>
-
-<details>
-<summary><strong>Q: Unable to edit courier services</strong></summary>
-
-The courier services are can't be edited once you save changes, you may need to delete to add new courier service to change
-
-Courier service type only able to be select when adding new service
+Example error photo:
+<img width="1280" height="175" alt="image" src="https://github.com/user-attachments/assets/619f68af-dba4-4023-89d9-1fc5904f3c40" />
 
 </details>
 
 <details>
-<summary><strong>Q: "Courier Setting > Locations not covered by your other zones"</strong></summary>
+<summary><strong>Q:What if the settings in Shopify and EasyParcel App are correct but the live rate still not displaying at the checkout page</strong></summary>
 
-**Solution:**
-- Check their version, if using legacy (e.g. v1.6.8.18) ask them to switch to
-- Check if this option is enabled
+**A:** The courier option may not support the selected delivery location, which is why it does not appear on the checkout page.
 
 </details>
 
 <details>
-<summary><strong>Q: Courier Setting > Locations not covered by your other zones (for WooCommerce official plugin in extension)</strong></summary>
+<summary><strong>Q: Will orders imported automatically when customer placed orders (Import Version)?</strong></summary>
 
-**Solution:**
-Try switching to the plugin from our portal instead
-
-Switch from EasyParcel Shipping from this to our version
-
-</details>
-
-<details>
-<summary><strong>Q: No courier service to select when trying to fulfil order</strong></summary>
-
-**Solutions:**
-- Check api log, could be because weight is 0, no shipping postcode, etc
-- Check EasyParcel Shipping page. If not filled up, API will not get any requests
-
-</details>
-
-<details>
-<summary><strong>Q: Have testing / demo / sandbox environment to test?</strong></summary>
-
-**A:** No, our plugin is only for live use.
-
-</details>
-
-<details>
-<summary><strong>Q: Unable to find Qxpress Courier service on Courier Settings</strong></summary>
-
-Due to recent Qxpress brand name changes, Qxpress will no longer be available as a courier option and has been updated to Tracxlogis. To change from Qxpress to Tracxlogis:
-
-1. Go to WooCommerce -> Settings -> Shipping -> EasyParcel Courier Setting
-2. Select and Edit Zones that previously selected Qxpress as Courier Service
-3. Delete the Qxpress Courier
-4. Add new courier services
-5. Select Tracxlogis as Courier Service
-6. Select the rate settings preferred
-7. Save Changes.
-
-</details>
-
-<details>
-<summary><strong>Q: No courier show up, credit balance = 0.00, all API related information not available, no API log</strong></summary>
-
-**Check if its status 403 (Forbidden) issue:**
-
-```php
-// easiest way to check is using easyparcel shipping settings page
-// in check credit balance api call, log the response code to check
-
-wc_get_logger()->info(wp_remote_retrieve_response_code($r));
-// then check in woocommerce status -> log
-```
-
-**To suggest fix to customer:**
-https://www.cloudways.com/blog/wordpress-403-forbidden-error/#fixes
-
-</details>
-
-<details>
-<summary><strong>Q: Why can I retrieve all couriers using my API key in log.php but only see cargo couriers displayed?</strong></summary>
-
-If the volumetric weight calculated using the volumetric calculator is higher than the actual weight, the volumetric weight will be used as the final weight.
-
-</details>
-
-<details>
-<summary><strong>Q: If shipping courier, flat rate can't show at checkout</strong></summary>
-
-**A:** But it got show at api log, It mind due to user woocommerce problem so it won't display any rate even if is a flat rate
-
-</details>
-
-<details>
-<summary><strong>Q: Undefined array error appears at checkout page</strong></summary>
-
-**Solution:**
-Ask customer to turn off debug mode on wp-config.php file
-
-Sample code:
-```php
-define( 'WP_DEBUG', false );
-```
-
-**Reference article:**
-https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
-
-</details>
-
-<details>
-<summary><strong>Q: Unable to show courier even if all settings are correct</strong></summary>
-
-It may be due to the easy parcel courier setting section where one zone is everywhere. This will create cache and block the country showing courier delete that everywhere zone then the problem will be fixed.
-
-</details>
-
-<details>
-<summary><strong>Q: Unable to find Singpost in courier setting</strong></summary>
-
-Due to recent Singpost brand name changes, Singpost will no longer be available as a courier option and has been updated to Speedpost. To change from Singpost to Speedpost:
-
-1. Go to WooCommerce -> Settings -> Shipping -> EasyParcel Courier Setting
-2. Select and Edit Zones that previously selected Singpost as Courier Service
-3. Delete the Singpost Courier
-4. Add new courier services
-5. Select Speedpost as Courier Service
-6. Select the rate settings preferred
-7. Save Changes.
-
-May refer to trackxlogis document or you can re-add by shipping zone edit -> add courier -> choose speedpost courier -> then save changes
-
-</details>
-
-<details>
-<summary><strong>Q: Does Auto fulfilment courier support multiple couriers at the same time</strong></summary>
-
-If you allow customer to select our courier during check page then it will fulfil based on customer selected courier, while if using custom rate then currently  only able to select one
-
-</details>
-
-
-<details>
-<summary><strong>Q: Does WooCommerce mobile app support our plugin</strong></summary>
-
-**A:** No, WooCommerce mobile app does not support our plugin, to fulfil the order via woocommerce plugin, will need to use Web version of woocommerce.
-
-To access Web version of woocommerce through app you follow as such:
-App dashboard, bottom right button -> select WC admin
-
-</details>
-
-<details>
-<summary><strong>Q: How is the item with volumetric weight is calculated</strong></summary>
-
-**How We Handle Package Dimensions for Multiple Items**
-
-When processing orders with multiple items, we don't simply add up all the dimensions. Instead, we use a **smart packaging algorithm** that optimizes the final package size to avoid excessive volumetric weight charges.
-
-**Our Dimension Calculation Logic:**
-
-**For each item in the order:**
-- We track both the **maximum** dimension and **sum** of dimensions for length, width, and height
-- Each dimension is converted to centimeters and validated
-
-**Smart Packaging Algorithm:**
-
-We calculate three sums: sumLength, sumWidth, sumHeight
-Then we find the smallest sum among these three
-Final dimensions are determined as:
-- If sumLength is smallest → Use: sumLength × maxWidth × maxHeight
-- If sumWidth is smallest → Use: maxLength × sumWidth × maxHeight  
-- If sumHeight is smallest → Use: maxLength × maxWidth × sumHeight
-
-**Why This Approach?**
-
-**Problem:** Simply adding all dimensions (L+L+L, W+W+W, H+H+H) would create unrealistically large packages and result in very high volumetric weight charges.
-
-**Solution:** Our algorithm assumes items can be packed efficiently by:
-- **Stacking** along the smallest total dimension
-- **Using the largest single item size** for the other two dimensions
-
-**Example:**
-
-If you order 3 identical boxes (10cm × 5cm × 3cm each):
-- Simple sum would be: 30cm × 15cm × 9cm = 4,050 cm³
-- Our smart algorithm: 30cm × 5cm × 3cm = 450 cm³ *(stacking along length)*
-
-This represents realistic packaging where items are stacked efficiently, resulting in more accurate shipping costs and better customer experience.
-
-**Benefits:**
-- ✅ **Lower shipping costs** due to realistic volumetric weight
-- ✅ **Accurate courier quotations**
-- ✅ **Efficient packaging** recommendations
-- ✅ **Prevents overcharging** customers
-
-**Basically:**
-W/L/H = width length height
-Smallest sum of either W/L/H × the largest W/L/H × the W/L/H
-
-</details>
-
-<details>
-<summary><strong>Q: Customer wants to split 1 order into few shipment</strong></summary>
-
-We recommend that sellers use this plugin. However, we advise them to mark up their shipping fees. This is because the plugin cannot collect multiple shipping fees from buyers, and the order can only be split once the buyer has completed the payment.
-
-
-<img width="1600" height="766" alt="asynccode" src="https://github.com/user-attachments/assets/fef4794f-2f20-44d2-bd50-d3acac6257c0" />
-
-
-</details>
-
----
-
-## Operation Questions
-
-<details>
-<summary><strong>Q: Will order fulfill status changed after the order is fulfilled in WooCommerce?</strong></summary>
-
-When importing an order to the EP dashboard and fulfilling it, the order status in WooCommerce will not update to "complete." The order status will be updated to "complete" only when the order is fulfilled in WooCommerce.
-
-If the customer's EP credit is not enough, the order could not be made and the status will not be updated. Additionally, if the customer pays for the order shipping on the EP dashboard, the order status will not be updated to "Complete" automatically. The customer will need to manually change the status.
-
-</details>
-
-<details>
-<summary><strong>Q: Does WooCommerce plugin integration provide COD service?</strong></summary>
-
-**A:** No, COD service is not provided in WooCommerce plugin version. If the customer wishes to use COD, they might have to use the Simple Version, import and fulfill their orders through EasyParcel.
-
-</details>
-
-<details>
-<summary><strong>Q: What to request WooCommerce login from the customer if not able to check on the log.</strong></summary>
-
-**A:** Those are the required data:
-- WordPress login URL:
-- Username:
-- Password:
-
-</details>
-
-<details>
-<summary><strong>Q: Shipping rate is too high, courier fee charges not according what the product weight resulting showing higher charges.</strong></summary>
-
-**A:** Check the dimension of the product. Please remove the product dimensions and only include the weight. If the product has variations, the dimensions of those variations also need to be specified.
-
-After making any changes, it is necessary to clear the WooCommerce cart and refresh the page before testing the modifications. This ensures that you begin with a clean cart and allows the changes to be properly reflected throughout the shopping process.
-
-</details>
-
-<details>
-<summary><strong>Q: Can I enable WhatsApp Tracking in WooCommerce plugin integration?</strong></summary>
-
-No, WhatsApp tracking currently (22nd August 2024) only available on simple integration
-
-</details>
-
-<details>
-<summary><strong>Q: Will the buyer view the tracking information after the order is fulfilled using EasyParcel plugin on WooCommerce?</strong></summary>
-
-Yes, the customer can view it.
-
-</details>
-
-<details>
-<summary><strong>Q: Conditions for WooCommerce orders to be imported</strong></summary>
-
-**Requirements:**
-- The order status is "processing" in woocommerce
-- The order modified for the last 7 days
-- The order not imported to Easyparcel before
-
-**Reference path:**
-- `portal-laravel/public/legacy/application/CUS_V8/Singapore/mvc/model/Database/cintegrationDB.php`
-- `portal-laravel/public/legacy/application/CUS_V8/Malaysia/mvc/model/Database/cintegrationDB.php`
-
-</details>
-
-<details>
-<summary><strong>Q: How to setup free shipping rules for EasyParcel rates on the checkout page? (guideline)</strong></summary>
-
-The customer may add free shipping rule at the EasyParcel Courier Setting. Here are the steps:
-
-1. Go to "WooCommerce" -> "Settings" -> "Shipping" -> "EasyParcel Courier Setting", click "Edit" on the zone that needs to add free shipping rule
-2. Click "Edit" on the courier service added
-3. Check the "Enable free shipping rule to apply" to enable free shipping rule, select "A minimum order amount" or "A minimum order quantity" at "Free shipping requires..", then value accordingly, then click "Save changes"
-
-**Note:** Please note that the rates generated at the checkout page using our plugin currently does not support currency conversion, currently our plugin only supports Malaysia and Singapore rates. For example, if the Country selected at "EasyParcel Shipping" setting is "Malaysia" and the base currency of customer's woocommerce store is USD, the value of rates returned by our plugin will be in myr value but labelled as usd at the checkout page.
-
-</details>
-
-<details>
-<summary><strong>Q: Why can't add courier on EP Courier setting tab</strong></summary>
-
-Because User didn't set the shipping zone or didn't fill up the integration ID on EP setting page
-
-</details>
-
-<details>
-<summary><strong>Q: Courier Setting > Locations not covered by your other zones</strong></summary>
-
-Ask for their plugin version, older plugins will have this bug
-
-</details>
-
-<details>
-<summary><strong>Q: Courier image not showing at checkout page</strong></summary>
-
-If user using plugin version 1.0.7, the courier image will not show at checkout page is due to a bug.
-
-If you're using version 1.6.8.18 or later and the courier image still isn't appearing, it could be because your chosen theme doesn't support the courier image. The default checkout theme does support it. To resolve this issue, you can either switch to a theme that supports the courier image or modify your current theme to enable it.
+**A:** Yes, the order will import automatically if the auto import settings is turn on. But the order may not immediately imported once customer placed as our auto import settings, will only be triggered a few times a day.
 
 </details>
 
