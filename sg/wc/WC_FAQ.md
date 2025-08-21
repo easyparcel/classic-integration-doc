@@ -72,6 +72,10 @@
 
 **A:** Please check whether the details contain other languages. As some of the courier partnerships are just receiving in English. Hence, we default all of the details can be received in English.
 
+<img width="777" height="373" alt="image" src="https://github.com/user-attachments/assets/00c2b35c-8d6d-4973-84b2-14e53736171f" />
+
+<img width="314" height="243" alt="image" src="https://github.com/user-attachments/assets/784162b4-9c5a-4b5a-8ad5-43705d7a2702" />
+
 </details>
 
 <details>
