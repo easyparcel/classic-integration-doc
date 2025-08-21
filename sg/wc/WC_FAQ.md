@@ -212,7 +212,7 @@ This is acceptable for troubleshooting purposes.
 <details>
 <summary><strong>Q: Unable to edit courier services</strong></summary>
 
-The courier services are can't be edited once you save changes, users need to delete to add new courier service to change
+The courier services are can't be edited once you save changes, you may need to delete to add new courier service to change
 
 Courier service type only able to be select when adding new service
 
