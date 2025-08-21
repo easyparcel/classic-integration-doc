@@ -1,105 +1,80 @@
-# How to Integrate EasyParcel with Shopify
-
-## Table of Contents
-- [Introduction](#introduction)  
-- [Start Integrating and Choose Fulfillment Method](#start-integrating-and-choose-fulfillment-method)  
-  - [Shopify APP Version (Seamless) - Recommended](#shopify-app-version-seamless---recommended)   
-- [Notes](#notes)  
+# EasyParcel Shopify Integration - App Setup 
 
 ---
 
 ## Introduction
-Hey, EasyParcel fam! This guide explains how to integrate your **EasyParcel account** with your **Shopify store**.  
-
-By using the EasyParcel Shopify APP, you can enjoy:  
-
-✔ **One-Click Bulk Fulfillment** – Fulfill single or bulk shipments with just one click.  
-✔ **Live Rate at Checkout** – Real-time shipping rates displayed during checkout.  
-✔ **Auto-generate Bulk Shipping Labels** – Create multiple shipping labels in a single step.  
-✔ **Partial Order Fulfillment** – Ship what’s ready now, send the rest later.  
-✔ **Auto Tracking Notifications (SMS, WhatsApp, Email)** – Keep customers informed and reduce inquiries.  
-✔ **Compare 60+ Courier Options** – Quickly find the best shipping option for your business.  
+This guide will walk you through integrating EasyParcel with Shopify using the App Version (Seamless) method. With this integration, you'll have a seamless experience with direct fulfillment from your Shopify App panel. 
 
 ---
 
-## Start Integrating and Choose Fulfillment Method
-Log into your EasyParcel account, go to **Integrations**, click **Add New Store**, and select **Shopify**.  
+### Set Up WooCommerce Integration
+**Step 1:** [Log in to your EasyParcel account](https://account.easyparcel.com/login?client_id=c575e8cd-aa46-46db-8308-e18d25bb76c6&redirect_uri=https%3A%2F%2Fapp.easyparcel.com%2Feasyaccount%2Fcallback&state=eyJjbGllbnRfaWQiOiI1M2FmYmQzMS05OGI2LTQ3ODctOWYzOC1kMDY5ZGRkN2RiM2QiLCJyZWRpcmVjdF91cmkiOiJodHRwczovL2FwcC5lYXN5cGFyY2VsLmNvbS9sb2dpbi9vYXV0aC9jYWxsYmFjayIsInN0YXRlIjoie30iLCJjb3VudHJ5IjoibXkiLCJsYW5nIjoiZW4ifQ%3D%3D&country=my), go to 'Integration', click on '[Add New Store](https://app.easyparcel.com/my/en/integrations/add/)' and click 'Shopify'.
 
-![Integration Navigation](pictures/SHI1.png)
-
----
-
-## Shopify APP Version (Seamless) - Recommended  
-We highly recommend using the **EasyParcel Shopify APP**, as it enables:  
-
-- Displaying live shipping rates on the Shopify checkout page.  
-- Fulfillment of orders directly via the EasyParcel Shopify APP.  
-- Automatic AWB generation and tracking.  
-- Automatic update of Shopify order status to “fulfilled.”  
-- Customizable AWB file names for smoother workflow.  
+![Integration Navigation](pictures/SHI1.png) 
 
 ---
 
-### Step 1  
-Fill in your **Shop Name** and **Shopify Store URL**.  
-Click **Next Step** to connect your Shopify store.  
+**Step 2:** Fill in your **Shop Name** and **Shopify Store URL**. Then, click **Next Step** to connect your Shopify store.  
 
 ![Step 1 Screenshot](pictures/SHI2.png)  
 
 ---
 
-### Step 2  
-EasyParcel will redirect you to your Shopify store panel.  
-A prompt will appear confirming successful integration. Click **OK**.  
+**Step 3:** EasyParcel will redirect you to your Shopify store panel. 
 
 ![Step 2 Screenshot](pictures/SHI3.png)  
 
+A prompt will appear confirming successful integration. Click **OK**.  
+
+![Step 2 Screenshot](pictures/SHI3.2.png)  
+
 ---
 
-### Step 3  
-Go to your Shopify admin panel → **Apps** → Search for **EasyParcel - Delivery Made Easy** → Click **Install**.  
+**Step 4:** Go to your Shopify admin panel → **Apps** → Search for **EasyParcel - Delivery Made Easy** → Click **Install**.  
 
 ![Step 3 Screenshot](pictures/SHI4.png)  
 
 ---
 
-### Step 4  
-You’ll be redirected to the EasyParcel settings under the **Getting Started** tab.  
-Read through and click **Start Setup**.  
+**Step 5:** You’ll be redirected to the EasyParcel settings under the **Getting Started** tab. Read through and click **Start Setup**.  
 
 ![Step 4 Screenshot](pictures/SHI5.png)  
 
 ---
 
-### Step 5  
-Go to the **Shipping Setting** tab to fill in your details.  
+**Step 6:** Go to the **Shipping Setting** tab to fill in your details.  
 - Select your shipping country.  
 - Insert your **Integration ID** (copied from EasyParcel).  
 
 ![Step 5 Screenshot](pictures/SHI6.png)  
 
+Note: Copy your integration ID from here. You can access your integrated stores from '[Your Store](https://app.easyparcel.com/my/en/integrations/your-store/)'. 
+
+![Step 5 Screenshot](pictures/SHI6.2.png)  
 ---
 
-### Step 6  
-Review the auto-filled **Sender’s Details**.  
+**Step 7:** Review the auto-filled **Sender’s Details**.  
 Edit if needed, then click **Save**.  
 
 ![Step 6 Screenshot](pictures/SHI7.png)  
 
 ---
 
-### Step 7  
-In Shopify admin:  
+**Step 8:** In Shopify admin:  
 - Go to **Settings** → **Checkout**.  
 - Under **Shipping address phone number**, choose **Required**.  
 
 ⚠️ *If not set, the receiver_contact may be empty → AWB cannot be generated.*  
 
 ![Step 7 Screenshot](pictures/SHI8.png)  
+![Step 7 Screenshot](pictures/SHI9.png)
+![Step 7 Screenshot](pictures/SHI10.png)
 
 ---
 
-## Notes
-- For **APP Version**, ensure customer phone numbers are required during checkout.  
-- Integration is **free of charge**.   
+## Conclusion
+
+You've successfully set up EasyParcel Shopify integration using the App Version (Seamless)! You will now can fulfill orders directly from your Shopify App panel. 
+
+If you have any questions or need further assistance, [check out our other articles](https://helpcentre-my.easyparcel.com/support/home) or reach out to our friendly support team. We're happy to help you every step of the way! 
 
