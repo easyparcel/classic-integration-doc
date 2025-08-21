@@ -219,6 +219,76 @@ Example error photo:
 
 ---
 
+## Operation Questions
+
+<details>
+<summary><strong>Q: Does App fulfill orders method, support EasyParcel tracking SMS & Email?</strong></summary>
+
+**A:** Yes, you will need to enable the tracking sms or email at the Shipping Setting of Shopify EasyParcel App.
+
+</details>
+
+<details>
+<summary><strong>Q: What is the different between Shopify Import vs App fulfillment</strong></summary>
+
+**A:** Our EasyParcel integration have 2 types of fulfillment, which are simple fulfillment and app fulfillment. 
+
+Simple fulfillment allows you to import your orders to EasyParcel website and you could manage and fulfill your orders at EasyParcel website. 
+On the other hand, app fulfillment allows you to manage and fulfill your orders in our Shopify EasyParcel app. 
+
+Both fulfillment methods allow you to choose the courier service you prefer from wide variety of courier services, bulk fulfill orders and bulk download the airway bill easily in just single click. 
+
+To understand more on simple fulfillment, kindly visit: (https://blog.easyparcel.com/my/tutorial-easyparcel-integration-shopify-v8/)
+
+To understand more on plugin fulfillment, kindly visit:
+(https://blog.easyparcel.com/my/tutorial-integrate-your-shopify-store-with-easyparcel%E2%80%91-delivery-made-easy-app-shopify-app-store/)
+
+</details>
+
+<details>
+<summary><strong>Q: Does App fulfill orders method, support EasyParcel tracking SMS & Email?</strong></summary>
+
+**A:** Yes, you will need to enable the tracking sms or email at the Shipping Setting of Shopify EasyParcel App.
+
+</details>
+
+<details>
+<summary><strong>Q: Will tracking info auto-updated to Shopify if I use simple integration (import method)?</strong></summary>
+
+**A:** No, we are unable to update the tracking info to Shopify from EasyParcel website.
+
+</details>
+
+<details>
+<summary><strong>Q: How to edit Shopify order to make the receiver's contact under Shipping Address section (guideline)?</strong></summary>
+
+### Step 1: Go to shopify admin panel -> "Orders", click into the order that need to be edited
+### Step 2: Under "Customer" card, click on "..." -> "Edit shipping address" 
+### Step 3: Scroll down and then insert the phone number
+### Step 4: Click "Save"
+
+<img width="1280" height="582" alt="image" src="https://github.com/user-attachments/assets/653e0928-f3e5-44ee-9b59-865952be75b3" />
+
+</details>
+
+<details>
+<summary><strong>Q: How to separate the courier from Singapore and Malaysia if fulfil order directly on Shopify EasyParcel App?</strong></summary>
+
+**A:** The courier will be automatically selected based on the country and zone, during customer checkout, the available courier for the area will also be reflected during the checkout when customer selects and key in their address's country / zones.
+
+</details>
+
+<details>
+<summary><strong>Q: Unable to generate AirWay Bill and submitted address details are incorrect</strong></summary>
+
+**A:** Cancel the order in EasyParcel website and book the order again with the correct order details.
+
+</details>
+
+
+
+---
+
 **Source Links:**
 - Technical Questions: https://easyparcel.sg.larksuite.com/sync/Paidd7TbBs04xVbBWc9uYPBYsGc
 - Operation Questions: https://easyparcel.sg.larksuite.com/sync/H6K9dPTULsLx4ObCZ81uZVzjsXd
