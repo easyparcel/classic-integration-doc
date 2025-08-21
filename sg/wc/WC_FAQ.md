@@ -421,6 +421,10 @@ Smallest sum of either W/L/H × the largest W/L/H × the W/L/H
 
 We recommend that sellers use this plugin. However, we advise them to mark up their shipping fees. This is because the plugin cannot collect multiple shipping fees from buyers, and the order can only be split once the buyer has completed the payment.
 
+
+<img width="1600" height="766" alt="asynccode" src="https://github.com/user-attachments/assets/fef4794f-2f20-44d2-bd50-d3acac6257c0" />
+
+
 </details>
 
 ---
