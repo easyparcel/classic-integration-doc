@@ -288,7 +288,7 @@ To understand more on plugin fulfillment, kindly visit:
 <details>
 <summary><strong>Q: Unable to set up live rate at checkout page</strong></summary>
 
-**A:**You must be on Shopify Grow (annual billing), Advanced or Plus plan to enable live rates at checkout.
+**A:** You must be on Shopify Grow (annual billing), Advanced or Plus plan to enable live rates at checkout. Basic plan are unable to enable this feature.
 If you're on the Shopify Grow (monthly billing) plan, you'll either need to:
 
 - Add this feature to your plan (for an extra monthly fee), or
