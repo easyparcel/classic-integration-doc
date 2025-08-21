@@ -86,9 +86,12 @@
 </details>
 
 <details>
-<summary><strong>Q: Theme CSS problem Bug</strong></summary>
+<summary><strong>Q: The display of the courier list is out of order</strong></summary>
 
-**A:** Edit the CSS of the theme
+<img width="2000" height="962" alt="image" src="https://github.com/user-attachments/assets/15454e00-6f18-4924-b781-9a45e120e14e" />
+
+
+**A:** May Edit the CSS of the theme, or may try use default woocommerce theme 
 
 </details>
 
