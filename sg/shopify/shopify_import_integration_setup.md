@@ -14,7 +14,7 @@ This guide will walk you through integrating EasyParcel with Shopify using the A
 
 ---
 
-**Step 2:** Select "Import Version", and fill in your 'Shop Name' and 'Your Shopify Store URL'. Click "Next Step".
+**Step 2:** Select "Import Version", and fill in your 'Shop Name' and 'Your Shopify Store URL'. Click "Next Step" to connect your Shopify store.
 
 <img width="3140" height="1794" alt="image" src="https://github.com/user-attachments/assets/92858a08-0ce0-4bad-9b93-d19ec710610f" /> 
 
