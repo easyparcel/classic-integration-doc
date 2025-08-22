@@ -48,6 +48,10 @@ In their app if the order details Shipping Address don't have phone number means
 [Full documentation about this issue](https://easyparcel.sg.larksuite.com/docx/PSQ8dTBTuota4oxHeRuldxHzgSe)
 
 
+[Refer documentation about this issue](how_to_resolve_missing_phone_numbers_in_shopify_shipping_address.md)
+
+
+
 </details>
 
 <details>
