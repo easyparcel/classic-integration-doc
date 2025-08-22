@@ -72,11 +72,6 @@ Individual API documentation > Rate Checking > "delivery" result
 <details>
 <summary><strong>Demo and Testing</strong></summary>
 
-### Q: Demo International testing
-
-Copy user_payment_method detail from live to demo (make sure the user_account_id and user_id have changed to the demo data id).
-
-
 ### Q: Demo environment respond time
 
 This was due to our server spec being low, that's why it will take longer respond time.
@@ -99,19 +94,8 @@ This issue should only happen in DEMO environment because the order submitted is
 
 ### Q: If the AWB is null in response to pay order API call
 
-**In live environment:** Suggest the customer to call the pay order API again on the same order_number. This usually happens due to our API failing to retrieve the AWB during the payment. Calling pay order API on the same order won't charge twice.
+**In live environment:** Please call the pay order API again on the same order_number. This usually happens due to our API failing to retrieve the AWB from courier during the payment. Calling pay order API on the same order won't charge twice.
 
-**If issue persists and courier is FedEx or UPS:** Check the logEvent for error message code such as:
-- STREETLINES.TOO.LONG
-- RECIPIENT.STATEORPROVINCECODE.INVALID
-
-Then ask others to help change the order details.
-
-**In demo environment:** Ask Sven. For demo environment please ask customer select Pos Laju as testing courier, ninja van get AWB feature are no longer available.
-
-### Q: If check API rate checking and some courier didn't show
-
-It may be due to our side API handling doesn't match courier side that's why it won't come out.
 
 ### Q: If API shows invalid on Postman
 
@@ -138,7 +122,7 @@ Up to 300 per bulk request.
 
 ### Q: Is it possible to use two types of API together (Individual and marketplace)?
 
-It is possible to use two types of API key together, according to customer situation.
+It is possible to use two types of API key together.
 
 </details>
 
@@ -147,18 +131,12 @@ It is possible to use two types of API key together, according to customer situa
 
 ### Q: Why is there a difference in price between portal and API?
 
-**Case when they don't mention 0.20 difference:**
 The price customer gets during quoting is not the final price yet. They may proceed with booking and checkout, then they will be able to see the shipment tax and add-on service charges if applied. The prices between EasyParcel portal and API are the same.
 
-**Explanation for the 0.20 difference:**
-The 0.20 difference is only present during rate checking as a quote. It is added to prevent undercharging for merchants if they use add-on services. The 0.20 is not charged during payment through API and is the same as EasyParcel portal. To exclude the 0.20, you may take (shipment_price + shipment_tax) or (price - addon_price).
 
 **Full explanation:**
-May explain to customer it is due to not all our partners being fully integrated with our system, which updates from time to time. Therefore, we provide standard higher prices, including add-on charges, during quotations to our partners to avoid undercharges. Thus, there will be a 0.20 price difference as a result, the quotations may be higher than the actual payment prices.
+It is due to not all our partners being fully integrated with our system, which updates from time to time. Therefore, we provide standard higher prices, including add-on charges, during quotations to our partners to avoid undercharges. Thus, there will be a 0.20 price difference as a result, the quotations may be higher than the actual payment prices.
 
-### Q: Customer cannot get rates with specific weight, but other API keys can get using the same post body
-
-Need to clear our server rates cache.
 
 </details>
 
