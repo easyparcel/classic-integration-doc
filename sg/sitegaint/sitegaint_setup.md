@@ -103,4 +103,3 @@
 
 ---
 
-**Source:** [EasyParcel Help Centre](https://helpcentre-my.easyparcel.com/support/solutions/articles/9000188740-sitegiant)
