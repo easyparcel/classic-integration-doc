@@ -102,6 +102,9 @@
 
 - You may press the retry button to retrieve the Awb
 
+<img width="218" height="233" alt="image" src="https://github.com/user-attachments/assets/f79f4f74-7ed1-46cc-aad5-afd8e35eb2e3" />
+
+
 </details>
 
 <details>
@@ -128,7 +131,7 @@ Activate both plugins thru sub-site Administrator
 </details>
 
 <details>
-<summary><strong>Q: Some orders can't be imported to the system</strong></summary>
+<summary><strong>Q: Some orders can't be imported to the easyparcel</strong></summary>
 
 **Requirements for order import:**
 - Order generated within 7 days
