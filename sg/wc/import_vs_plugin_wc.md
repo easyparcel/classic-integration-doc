@@ -31,11 +31,9 @@ The EasyParcel WooCommerce Plugin is a WordPress plugin that provides seamless, 
 - ✅ Seamless WooCommerce integration
 - ✅ Automatic tracking updates
 - ✅ Reduced manual work and errors
-- ✅ Perfect for high-volume stores
-- ✅ Better customer experience
 - ✅ WordPress admin integration
 - ✅ Shorter fulfilment time
-- ✅ Easy installation and setup
+
 
 ### Cons:
 - ❌ Fewer courier service options
