@@ -4,8 +4,7 @@
 <summary><strong>Minimum Order Quantity (MOQ)</strong></summary>
 
 ### Q: What is MOQ (Minimum Order Quantity) pick up by courier services?
-
-`require_min_order` is set as 0 because the parcel could be accumulated, as long as the parcel is more than 3, the relative courier service will go and pick up the parcels.
+You may submit single parcel order first, but untill you have 3 order or parcel orders, the relative courier service will proceed go and pick up the parcels.
 
 If you wishes to filter up the courier services that is having MOQ, you may to filter by searching the key words of "Pick Up with min" as some of the MOQ of courier services are different. Hence, the suggestion is only filter with the key words of "Pick Up with min".
 
@@ -97,13 +96,18 @@ This issue should only happen in DEMO environment because the order submitted is
 **In live environment:** Please call the pay order API again on the same order_number. This usually happens due to our API failing to retrieve the AWB from courier during the payment. Calling pay order API on the same order won't charge twice.
 
 
-### Q: If API shows invalid on Postman
+### Q: Why shows courier service not availble in this location during submit order
 
 **Reason 1:** This might be due to us updating our service id at that time.
 
-**Reason 2:** It might be due to customer using live environment to submit order and use demo environment for rate checking. Our demo and live environment are different that's why when user calls it will show invalid.
+**Reason 2:** Please check if the rate checking and submit order using same enviroment. Our demo and live environment will stored data differently that's why when user calls it will show invalid.
 
-### Q: Rate checking on Postman if takes long time
+### Q: Why shows this order number not exist
+
+**Reason :** Please check if the submit order and pay order using same enviroment. Our demo and live environment will stored data differently that's why unable to retrieve the order.
+
+
+### Q: Rate checking takes long time
 
 It may be due to our server experiencing high load at that time that's why it will slow down the response time.
 
@@ -164,10 +168,7 @@ This is maximum. Some couriers only support the coll_date to be specified 7 days
 
 ### Q: API Response msg: "Kindly change the chosen pickup date or choose another courier service"
 
-The coll_date they input is invalid (for example, 2 days before the current day). External API will reorder year-month-day then pass to legacy internal API but will not choose a valid date (job for internal API) and problem should be bug in internal API.
-
-**Sample response:**
-After checking, we noticed you passed the coll_date is 2025-01-06. While we are able to auto assign coll_date to the next day if it is not valid, we recommend submitting the current date, or if you wish to schedule the order later kindly pass a future date.
+This may be due to the "coll_date" submitted being invalid. Please submit the coll_date as the present date or no more than 2 weeks in advance for scheduling.
 
 </details>
 
@@ -183,11 +184,6 @@ When the courier confirms that the parcel is with them, it will start to notify 
 <details>
 <summary><strong>Regional Specific</strong></summary>
 
-### Q: SG merchant fulfill using dropoff courier service, portal shows it as pickup
-
-External API does not provide dropoff points for all SG courier services in rate checking, so customer have no choice but to submit without dropoff points. Dropoff orders submitted without dropoff point will become pickup orders.
-
-However portal provides option to pick dropoff point so you may ask them to fulfill there. The integration team does not have any plans to fix the issue for legacy external API.
 
 ### Q: Does Singapore have shipping tax?
 
@@ -206,10 +202,17 @@ If you ignore the alert (where you didn't click the button "Bring Me to My Cart"
 
 From API side, because your request submitted to our system, but the payment fails, therefore the system treats this as an unpaid order and it will notify from the portal as normal activities.
 
-### Q: If customer asks why the courier name during submit order and rate checking courier name is slightly different for MPRateChecking and MPSubmitOrder
+<img width="1280" height="729" alt="image" src="https://github.com/user-attachments/assets/1c1d33f0-9636-42a1-a908-12b4bd5be457" />
+
+### Q: Why the courier name during submit order and rate checking courier name is slightly different for MPRateChecking and MPSubmitOrder
 
 The full courier name during rate checking is the full courier name while, the courier name shown after submit order are the courier short name.
 
-*May provide reference file for them to refer.*
+here the example:
+        {
+            "courier_id": "EP-CR0I5",
+            "courier_name": "SPX Xpress (Malaysia) Sdn Bhd",
+            "short_name": "SPX Xpress"
+        }
 
 </details>
