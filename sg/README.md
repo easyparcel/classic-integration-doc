@@ -95,7 +95,7 @@ We welcome contributions to improve our documentation! Please read our [Contribu
 
 **Ready to get started?** 
 
-[🚀 **Choose Your Platform**](#-platform-integrations) | [📖 **View API Docs**](https://developers.easyparcel.com/) | [💬 **Get Support**](#-need-help)
+[🚀 **Choose Your Platform**](#-platform-integrations) | [📖 **View API Docs**](https://developers.easyparcel.com/) | [💬 **Get Support**](https://api.whatsapp.com/send/?phone=6042023160&text&type=phone_number&app_absent=0)
 
 
 </div>
