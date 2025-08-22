@@ -57,10 +57,6 @@ New to EasyParcel? Start here:
 - **[API FAQ](./api/api_FAQ.md)** - Common questions and solutions
 
 
-### 📞 Support
-- [Support Ticket System](#)
-- [Community Forum](#)
-- [Live Chat Support](#)
 
 ## 🤝 Contributing
 
@@ -85,14 +81,12 @@ We welcome contributions to improve our documentation! Please read our [Contribu
 ## 🏗️ Repository Structure
 
 ```
-├── api/                 # API integration guides
+├── api/                # API integration guides
 ├── shopify/            # Shopify-specific documentation  
-├── woocommerce/        # WooCommerce integration guides
+├── wc/                 # WooCommerce integration guides
 ├── easystore/          # EasyStore platform guides
-├── resources/          # General resources and references
-├── tools/              # Utilities and testing tools
-├── examples/           # Code examples and samples
-└── assets/             # Images and media files
+└── sitegaint/          # General resources and references
+
 ```
 
 ---
@@ -103,6 +97,5 @@ We welcome contributions to improve our documentation! Please read our [Contribu
 
 [🚀 **Choose Your Platform**](#-platform-integrations) | [📖 **View API Docs**](https://developers.easyparcel.com/) | [💬 **Get Support**](#-need-help)
 
-*Making shipping simple, one integration at a time.* 📦✨
 
 </div>
