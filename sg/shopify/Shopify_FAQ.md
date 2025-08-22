@@ -302,5 +302,5 @@ If you're on the Shopify Grow (monthly billing) plan, you'll either need to:
 ---
 
 **Source Links:**
-- Technical Questions: https://easyparcel.sg.larksuite.com/sync/Paidd7TbBs04xVbBWc9uYPBYsGc
-- Operation Questions: https://easyparcel.sg.larksuite.com/sync/H6K9dPTULsLx4ObCZ81uZVzjsXd
+- Technical Questions: 
+- Operation Questions: 
