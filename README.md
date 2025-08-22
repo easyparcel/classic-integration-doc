@@ -19,8 +19,6 @@ Select your country/region to access the relevant documentation, integration gui
 ### What's included:
 - ✅ **Local Integration Guides** - Shopify, WooCommerce, EasyStore
 
-**[📖 Access Malaysia Documentation →](./my/)**
-
 ---
 
 ## 🇸🇬 Singapore
@@ -31,8 +29,6 @@ Select your country/region to access the relevant documentation, integration gui
 
 ### What's included:
 - ✅ **Local Integration Guides** - Platform-specific setup for SG
-
-**[📖 Access Singapore Documentation →](./my/)**
 
 </div>
 
