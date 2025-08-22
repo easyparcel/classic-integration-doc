@@ -6,7 +6,8 @@ When doing fulfillment in EasyParcel application, you may encounter this error:
 
 > ⚠️ **Invalid mobile number in receiver's contact.**
 
-*[Image placeholder: Error message screenshot]*
+<img width="798" height="190" alt="image" src="https://github.com/user-attachments/assets/20a19e9e-2eb8-4a27-8052-a6790e253d62" />
+
 
 ## Solution Steps
 
@@ -15,29 +16,23 @@ When doing fulfillment in EasyParcel application, you may encounter this error:
 Please check the shipping address section of your order when it syncs to EasyParcel, as many customers often overlook filling in the phone number. For your reference, the attached image from the EasyParcel application shows how it will appear when fulfilling an order through EasyParcel.
 
 **Example of missing phone number:**
-```
-Shipping Address
-Kuala Lumpur Malaysia
-55100
-+6011  [← Phone field is incomplete/invalid]
 
-Billing Address
-Kuala Lumpur Malaysia
-55100
-+6011
-```
+<img width="664" height="636" alt="image" src="https://github.com/user-attachments/assets/7cacc233-7335-485d-bcf9-f0dadeb74ee0" />
 
-*[Image placeholder: EasyParcel shipping address screenshot]*
 
 ### Step 2: Navigate to Shopify Orders
 
 Navigate to your Shopify Orders page, then click on the specific order that has the phone number issue.
 
+<img width="1600" height="396" alt="image" src="https://github.com/user-attachments/assets/9920b139-55cf-4e40-95a4-e466fc652566" />
+
+
 ### Step 3: Edit Shipping Address
 
-Click on the three dots (**…**) to open a menu with three options, then select **"Edit shipping address."**
+Click on the three dots (***) to open a menu with three options, then select **"Edit shipping address."**
 
-*[Image placeholder: Shopify order details with three dots menu]*
+<img width="1600" height="1153" alt="image" src="https://github.com/user-attachments/assets/21d2c394-3196-458f-a6aa-5c73a68c4da3" />
+
 
 ### Step 4: Enter Phone Number
 
@@ -45,7 +40,8 @@ Scroll down to the **"Phone"** field, enter your customer's phone number, and cl
 
 Once saved, you can proceed to fulfill the order again with EasyParcel, and it should go through successfully.
 
-*[Image placeholder: Edit shipping address dialog with phone field]*
+<img width="944" height="1234" alt="image" src="https://github.com/user-attachments/assets/ac2240f2-8131-47f9-9354-72e002040a8b" />
+
 
 ## Prevention (Recommended)
 
@@ -64,7 +60,8 @@ To prevent this issue from occurring, we recommend making the phone number field
 - ⚪ Optional  
 - 🔘 **Required** ← Select this option
 
-*[Image placeholder: Shopify checkout settings with phone number options]*
+<img width="1063" height="202" alt="image" src="https://github.com/user-attachments/assets/4ee765d8-6763-4249-8620-5e214f84a80f" />
+
 
 ## Summary
 
