@@ -94,7 +94,7 @@ The Import Method involves manually or automatically importing order data from W
 | **Setup Complexity** | Medium | Easy |
 | **Order Processing** | Manual | Automated |
 | **Bulk Processing** | ✅ | ✅  |
-| **Courier Options** | Full Range | Limited |
+| **Courier Options** | Full Range | (excluding Fedex and UPS) |
 | **Tracking Updates** | Manual | Automatic |
 | **WordPress Integration** | No | ✅ |
 | **Plugin Dependencies** | No | Yes |
@@ -123,14 +123,13 @@ The Import Method involves manually or automatically importing order data from W
 ## 🤔 Which Should You Choose?
 
 ### Choose **Import Method** if:
-- You have a small to medium-sized store
 - You prefer having full control over the shipping process
 - You need access to all courier services and features
 - You don't mind manual order processing
-- You want to avoid plugin subscription fees
 - You require advanced customization options
 - You have a heavily customized WooCommerce setup
 - You're concerned about plugin conflicts
+- You prefer Fedex and UPS courier
 
 ### Choose **EasyParcel Plugin** if:
 - You have a high-volume store
@@ -147,19 +146,17 @@ The Import Method involves manually or automatically importing order data from W
 ## 🛠️ Installation & Setup
 
 ### Plugin Setup:
-1. Purchase/download EasyParcel plugin
-2. Install plugin via WordPress admin
-3. Configure API credentials
-4. Set up shipping zones and rates
-5. Test checkout process
-6. Configure automated notifications
+1. Install plugin via WordPress admin
+2. Configure API credentials
+3. Set up shipping zones and rates
+4. Test checkout process and fulfilment
 
 ### Import Method Setup:
 1. Create EasyParcel account
-2. Set up order export from WooCommerce
-3. Learn EasyParcel portal navigation
-4. Establish manual workflow process
-5. Train team on order processing
+2. Set up order import from WooCommerce
+3. Import the orders from WooCommerce
+4. Add to cart the imported orders
+5. Checkout and pay the imported orders
 
 ---
 
