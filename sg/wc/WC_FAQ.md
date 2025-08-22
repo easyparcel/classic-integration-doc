@@ -196,10 +196,6 @@ Due to recent Qxpress brand name changes, Qxpress will no longer be available as
 <details>
 <summary><strong>Q: Undefined array error appears at checkout page</strong></summary>
 
-<img width="899" height="191" alt="image" src="https://github.com/user-attachments/assets/c139a45e-3502-45d8-9de0-a72954d2307c" />
-<img width="1280" height="567" alt="image" src="https://github.com/user-attachments/assets/c8df429c-ce3d-4ade-8984-e02cc300572e" />
-<img width="1149" height="863" alt="image" src="https://github.com/user-attachments/assets/e6e3a000-8e10-46cf-80e4-2d2b3c662695" />
-
 **Solution:**
 Please check if Word press debug mode if turn on, if yes
 please to turn off debug mode on wp-config.php file
@@ -211,6 +207,9 @@ define( 'WP_DEBUG', false );
 
 **Reference article:**
 https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
+<img width="899" height="191" alt="image" src="https://github.com/user-attachments/assets/c139a45e-3502-45d8-9de0-a72954d2307c" />
+<img width="1280" height="567" alt="image" src="https://github.com/user-attachments/assets/c8df429c-ce3d-4ade-8984-e02cc300572e" />
+<img width="1149" height="863" alt="image" src="https://github.com/user-attachments/assets/e6e3a000-8e10-46cf-80e4-2d2b3c662695" />
 
 </details>
 
