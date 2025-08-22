@@ -11,12 +11,21 @@
 ### Step 3: Choose Platform
 - Choose "SiteGiant"
 
+<img width="1185" height="317" alt="image" src="https://github.com/user-attachments/assets/b241f286-bbeb-4c4b-9df9-06fac3d812ce" />
+
+
 ### Step 4: Fill Up Details
 - Complete the required information
+
+<img width="820" height="374" alt="image" src="https://github.com/user-attachments/assets/10da82a8-6b81-49e3-8a8b-b8c5e2c89f61" />
+
 
 ### Step 5: Complete Integration Setup
 - Fill up details and click "Submit"
 - Your integration is now completed
+
+<img width="820" height="296" alt="image" src="https://github.com/user-attachments/assets/8db533fa-6009-41c3-b2e6-15bcf448278f" />
+
 
 ---
 
@@ -24,77 +33,114 @@
 
 ### Step 6: Verify Integration Status
 - Click "Your Stores" and make sure your SiteGiant is "Activated"
-- **Note:** You do not have to import your items yourself as your orders will be imported automatically
 
-### Step 7: Configure Integration Key
-- Go back to Unicart's EasyParcel page
-- Paste the Integration Key in the Integration Key field
+<img width="1170" height="331" alt="image" src="https://github.com/user-attachments/assets/9e9d073f-c693-4e27-9cf3-89046132876e" />
+
+
+### Step 7: Install easyparcel app
+Go to Apps on the dashboard menu > Others > click on the EasyParcel
+
+<img width="1899" height="792" alt="image" src="https://github.com/user-attachments/assets/f7720370-5bd1-4187-8707-26b76a07c5ee" />
+
 
 ### Step 8: Configure Contact Details
 - Fill up EasyParcel Email Address
 - Enter the address of Sender Collection
 
-### Step 9: Select Shipping Rate Method
-- Choose shipping rate calculation method:
-  - EasyParcel member rate, OR
-  - Courier public rate
+<img width="860" height="1287" alt="image" src="https://github.com/user-attachments/assets/d0f67e40-52b1-4346-9c01-023eca76b8e6" />
 
-### Step 10: Set Weight Unit
-- Select the Weight Unit to calculate shipping fee accordingly
+### Step 9: Click on the Save button once done settings
 
-### Step 11: Configure Tax Settings
-- Select the Tax Class with SST @ 6% if your business is SST registered
-
-### Step 12: Set Geographic Zone
-- Select the Geo Zone to use EasyParcel service
-
-### Step 13: Enable Default Shipping
-- Select Default Shipping to sync orders to EasyParcel
-
-### Step 14: Display Settings
-- Enable "Display Delivery Weight" to show shipping weight at checkout
-
-### Step 15: Pigeon Service Configuration
-- Enable "Pigeon Status" if you offer self pick up service provided by Pigeon
-
-### Step 16: Adjust Shipping Fees (Optional)
-- You can adjust the shipping fee by:
-  - Increasing the actual charges
-  - Decreasing the actual charges
-  - Keeping the actual charges unchanged
-
-### Step 17: Advanced Settings (Optional)
-- Use "Sorting" to control the sequence of EasyParcel at checkout
-- Select "Customer Group" that are entitled for EasyParcel
-
-### Step 18: Enable EasyParcel Display
-- Enable "Status" to display EasyParcel option on your UniCart's Checkout page
-
-### Step 19: Complete Installation
-- Click "Install" button
-
-**Congratulations!** You have successfully activated EasyParcel and customers can checkout with EasyParcel on your Unicart store.
 
 ---
 
-## Order Processing and Fulfillment
+# Order Processing and Fulfillment
 
-### Step 20: Customer Order Completion
-- After customers complete checkout process, orders are created with the customers' choice of courier
+### Method 1: Sync Order To EasyParcel
 
-### Step 21: Sync Orders to EasyParcel
-- Select "EasyParcel" from Parcel Info box
-- Click "Apply" button to sync the orders to EasyParcel
+### Step 1
+Go to **All Orders** > click the **Order Number** to go into the Manage Order page
 
-### Step 22: Access Orders in EasyParcel Dashboard
-- Login to EasyParcel Dashboard
-- Go to "Integrations"
-- Choose "Orders Imported"
+<img width="1898" height="732" alt="image" src="https://github.com/user-attachments/assets/675e2c3c-72d2-4be9-a82b-3a12b3cd1d13" />
 
-### Step 23: Process Order for Delivery
-- Select the Order ID and Collection Date
-- Click "Add to Cart" button to deliver the parcel
 
+### Step 2
+Under the **Parcel Info** section, click on **Select Courier Service** > select **EasyParcel** as the Courier Service > Save
+
+<img width="1592" height="718" alt="image" src="https://github.com/user-attachments/assets/96329e95-17e5-45a7-8df7-bfcb178d72bf" />
+
+
+### Step 3
+Choose your preferred **Courier Service** > click on **Save** to confirm
+
+> 📌 **Note**: You will have to top up credit in EasyParcel first in order to sync the order from SiteGiant ERP
+
+<img width="741" height="691" alt="image" src="https://github.com/user-attachments/assets/4e23fa7a-b756-4d0d-ab2c-b201db257899" />
+
+
+### Step 4
+After the order is successfully synced, scroll down to the **Order History** section > click on the **EasyParcel AWB link** to proceed with shipping label printing
+
+<img width="1595" height="988" alt="image" src="https://github.com/user-attachments/assets/a0aa59eb-4799-469a-8f0c-05e4190d73b9" />
+
+
+---
+
+## Method 2: Using Order Processing
+
+### Step 1
+Navigate to **Orders** > **All Orders**
+
+<img width="255" height="372" alt="image" src="https://github.com/user-attachments/assets/ec85f71d-3366-4079-95c0-94ccb63514ac" />
+
+
+### Step 2
+Click on **Order Processing** Button
+
+<img width="733" height="445" alt="image" src="https://github.com/user-attachments/assets/3b53d720-cc99-4df8-b929-1203e2cdfb4c" />
+
+
+### Step 3
+Click on **More (…)** > **Shipping Label Settings**
+
+<img width="1536" height="455" alt="image" src="https://github.com/user-attachments/assets/944ca370-2a29-49e4-a0a4-6d64fcb547e5" />
+
+
+### Step 4
+Select **Webstore and others** > **Courier Service Settings** > **Malaysia** > enable the status of **EasyParcel MY**
+
+<img width="1594" height="1783" alt="image" src="https://github.com/user-attachments/assets/d822cf14-f56e-400c-9bc5-4b8d68ecbef8" />
+
+
+### Step 5
+Enable **Notify Customer For Webstore Order** if you wish to send an email notification to the customers
+
+> 💡 **Tips**: You may customize the Email Notifications in **Settings** > **Email Templates** > **Shipping Notifications** > **Order Fulfillment Confirmation**. Learn More on How To Customize Notification Email Templates
+
+<img width="630" height="268" alt="image" src="https://github.com/user-attachments/assets/76bf2931-d7fb-426a-8821-e15c150ca04b" />
+
+### Step 6: Setting **Arrange Shipment without payment checkout**
+
+<img width="627" height="264" alt="image" src="https://github.com/user-attachments/assets/742655d4-2852-4f7d-ac8f-62c4c5ca760c" />
+
+
+#### i) Enable Button
+If you **Enable** the button, after **Arrange Shipment**, the order(s) will move to **Processing**. You may click the **Make Payment** button to make the payment and the order(s) will move to **To Print**.
+
+> 📌 **Note**: If the order(s) has been paid in EasyParcel, you may click the **Update Tracking No** button to let the order(s) move to **To Print**.
+
+<img width="1871" height="789" alt="image" src="https://github.com/user-attachments/assets/89d3f770-3068-40cc-a3c1-e48f123d4e10" />
+
+#### ii) Disable Button
+If you **Disable** the button, you may continue with the normal process flow for printing the shipping label. Please ensure that you have sufficient credit in your EasyParcel account.
+
+<img width="1536" height="809" alt="image" src="https://github.com/user-attachments/assets/6626e099-cde2-457c-bcec-0fb565d0dfbc" />
+
+
+> 💡 **Tips**: May refer to How To Print Webstore And Others Shipping Label
+
+### Step 7
+**Apply** > **Save** the Shipping Label Settings > you may now process the order and print the shipping label using EasyParcel
 ---
 
 ## Ready to Get Started?
