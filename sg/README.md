@@ -82,18 +82,6 @@ We welcome contributions to improve our documentation! Please read our [Contribu
 | API Direct | ✅ Active | Complete | Full |
 
 
-
-## 📞 Need Help?
-
-Choose the support option that works best for you:
-
-- 📧 **Email Support**: [support@easyparcel.com](mailto:support@easyparcel.com)
-- 💬 **Live Chat**: Available on our website 9AM-6PM MYT
-- 📋 **Documentation**: Browse this repository for detailed guides
-- 🔧 **Technical Issues**: Create an issue in this repository
-
----
-
 ## 🏗️ Repository Structure
 
 ```
