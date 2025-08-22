@@ -152,13 +152,11 @@ Their width, length and height are too small, like 0.1cm x 0.1cm x 0.1cm. Ask th
 <details>
 <summary><strong>Collection and Delivery</strong></summary>
 
-### Q: Hong Kong postcode is not required in API call
+### Q: Do Hong Kong postcode required in API call
+ No
+### Q: Will Order submitted to EasyParcel will be expired if the coll_date is passed by the order not paid yet?
+ Yes
 
-*[No additional details provided]*
-
-### Q: Order submitted to EasyParcel will be expired if the coll_date is passed by the order not paid yet
-
-*[No additional details provided]*
 
 ### Q: The maximum collect_date can be specified in External API is only 14 days from the date calling the API
 
