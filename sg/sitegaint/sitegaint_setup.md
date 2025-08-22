@@ -145,7 +145,7 @@ If you **Disable** the button, you may continue with the normal process flow for
 
 ## Ready to Get Started?
 
-**[Integrate Now](https://www.easyparcel.com/integration)** - Start your SiteGiant integration today!
+**[Integrate Now](https://app.easyparcel.com/my/en/integrations/add/)** - Start your SiteGiant integration today!
 
 ---
 
