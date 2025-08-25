@@ -1,4 +1,4 @@
-# 📦 EasyParcel Documentation
+# 📦 EasyParcel Integration Documentation
 
 Welcome to EasyParcel! We're your trusted shipping partner across Southeast Asia, providing seamless e-commerce logistics solutions.
 
