@@ -77,8 +77,9 @@ Auto Fulfilment is ideal when you:
 
 ## ⚠️ Important Notes
 
-- Ensure your product have product weight.
-- Ensure the phone number in Shopify Shipping Address is available refer [here](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/how_to_resolve_missing_phone_numbers_in_shopify_shipping_address.md) to prevent missing phone number.
+- Ensure your product have product weight
+- Ensure the phone number in Shopify Shipping Address is available refer [here](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/how_to_resolve_missing_phone_numbers_in_shopify_shipping_address.md) to prevent missing phone number
+- Ensure the order status is paid
 - Regularly check your Auto Fulfilment settings to ensure they match your current shipping preferences
 - Monitor processed orders periodically to catch any issues early
 - Keep your credit balance in EasyParcel account in good standing to avoid fulfilment interruptions
