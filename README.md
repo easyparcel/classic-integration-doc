@@ -63,9 +63,9 @@ If you operate in both countries, you can access both documentation sets. Each r
 |----------|----------|-----------|
 | **API Documentation/Guides** | [MY API Docs](./my/api/) | [SG API Docs](./sg/api/) |
 | **Shopify Guides** | [MY Shopify](./my/shopify/) | [SG Shopify](./sg/shopify/) |
-| **Woocommerce Guides** | [MY WC](./my/wc/) | [SG WC](./sg/wc/) |
-| **Easystore Guides** | [MY ES](./my/easystore/) | [SG ES](./sg/easystore/) |
-| **SiteGiant Guides** | [MY SG](./my/sitegiant/) | [SG SG](./sg/sitegiant/) |
+| **Woocommerce Guides** | [MY WooCommerce](./my/wc/) | [SG WooCommerce](./sg/wc/) |
+| **Easystore Guides** | [MY Easystore](./my/easystore/) | [SG Easystore](./sg/easystore/) |
+| **SiteGiant Guides** | [MY SiteGiant](./my/sitegiant/) | [SG SiteGiant](./sg/sitegiant/) |
 
 
 ---
