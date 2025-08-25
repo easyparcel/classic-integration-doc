@@ -31,7 +31,8 @@ Follow these steps to enable Auto Fulfilment:
 7. **Save Settings**
    - Click "Save" to apply your configuration
      
-<img width="1214" height="511" alt="image" src="https://github.com/user-attachments/assets/62aacbea-7cf0-49fe-9c52-02d3b9509add" />
+<img width="1237" height="592" alt="image" src="https://github.com/user-attachments/assets/14e85fee-c820-44ac-97cb-4e5e6f16999a" />
+
 
 
 ## 🔄 How Auto Fulfilment Works
