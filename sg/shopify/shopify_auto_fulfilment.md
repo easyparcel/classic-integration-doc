@@ -51,23 +51,11 @@ The auto fulfillment log/history is accessible here.
 
 The Auto Fulfilment process varies depending on your checkout configuration:
 
-### 🎯 Scenario 1: EasyParcel Rates Enabled During Checkout
+### 🎯 EasyParcel Shipping Method: 
+If the buyer selects an EasyParcel shipping method at checkout, the system will automatically fulfill the order using the courier service chosen by the buyer.
 
-**Process Flow:**
-1. **Customer Places Order** → Customer selects an EasyParcel courier option during checkout
-2. **Order Detection** → Plugin automatically detects the new order
-3. **Courier Selection Logic** → Plugin attempts to fulfill using:
-   - **Primary**: Customer's selected courier service
-   - **Fallback**: Default courier service from Auto Fulfilment settings (if customer's choice is unavailable)
-4. **Order Completion** → Once fulfilled, download the airway bill from WooCommerce Orders page
-
-### 🎯 Scenario 2: Flat Rate Shipping During Checkout
-
-**Process Flow:**
-1. **Customer Places Order** → Customer selects from available flat-rate shipping options
-2. **Order Detection** → Plugin automatically detects the new order
-3. **Courier Assignment** → Plugin uses the default courier service configured in Auto Fulfilment settings
-4. **Order Completion** → Once fulfilled, download the airway bill from WooCommerce Orders page
+### 🎯 Non-EasyParcel Shipping Method: 
+If the buyer selects a non-EasyParcel shipping method at checkout, the system will automatically fulfill the order using your pre-selected preferred courier service.
 
 ## 🎯 When to Use Auto Fulfilment
 
@@ -89,15 +77,14 @@ Auto Fulfilment is ideal when you:
 
 ## ⚠️ Important Notes
 
-- Ensure your inventory is accurately maintained for smooth auto-fulfilment
+- Ensure your product have product weight.
+- Ensure the phone number in Shopify Shipping Address is available refer [here](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/how_to_resolve_missing_phone_numbers_in_shopify_shipping_address.md) to prevent missing phone number.
 - Regularly check your Auto Fulfilment settings to ensure they match your current shipping preferences
 - Monitor processed orders periodically to catch any issues early
-- Keep your courier account in good standing to avoid fulfilment interruptions
+- Keep your credit balance in EasyParcel account in good standing to avoid fulfilment interruptions
 
-## 📄 Getting Your Airway Bills
+## 📄 Conclusion
+You've successfully set up EasyParcel Shopify auto fulfilment all the orders will be fulfil automatically in your EasyParcel Shopify App.
 
-After orders are automatically fulfilled:
-1. Go to **WooCommerce > Orders**
-2. Find your processed order
-3. Click to download the corresponding airway bill
-4. Use the airway bill for package labeling and tracking
+If you have any questions or need further assistance, [check out our other articles](https://github.com/easyparcel/classic-integration-doc/tree/main/sg/shopify) or reach out to our integration support team. We're happy to help you every step of the way! 
+
