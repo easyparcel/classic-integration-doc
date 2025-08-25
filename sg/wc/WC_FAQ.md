@@ -167,6 +167,8 @@ Courier service type only able to be select when adding new service
 <details>
 <summary><strong>Q: Unable to find Qxpress Courier service on Courier Settings</strong></summary>
 
+[Full documentation here](qxpress_to_tracxlogis_wc.md)
+
 <img width="210" height="96" alt="image" src="https://github.com/user-attachments/assets/effe60fa-877a-48d1-908a-3588c9bb2e18" />
 
 Due to recent Qxpress brand name changes, Qxpress will no longer be available as a courier option and has been updated to Tracxlogis. To change from Qxpress to Tracxlogis:
