@@ -1,6 +1,6 @@
-# EasyParcel Auto Fulfilment Guide for WooCommerce
+# 📦 EasyParcel Auto Fulfilment Guide for WooCommerce
 
-## What is Auto Fulfilment?
+## 🤔What is Auto Fulfilment?
 
 Auto Fulfilment is a powerful feature that streamlines your shipping process by automatically creating shipping orders when customers place orders on your WooCommerce store. This hands-off approach saves time and reduces manual work while ensuring orders are processed promptly.
 
@@ -10,30 +10,35 @@ Follow these steps to enable Auto Fulfilment:
 
 1. **Navigate to Auto Fulfilment Settings**
    - Go to the EasyParcel tab in your WooCommerce admin panel
+
+2. **Select to Auto Fulfilment Settings**
    - Select "Auto Fulfilment" from the menu
 
-2. **Enable Auto Fulfilment**
+3. **Enable Auto Fulfilment**
    - Change the Auto Fulfilment setting to "Yes"
 
-3. **Choose Your Preferred Courier**
+4. **Choose Your Preferred Courier**
    - Select your default courier service from the dropdown menu
 
-4. **Select Service Type**
+5. **Select Service Type**
    - Choose between:
      - **Drop Off Service**: You bring packages to a designated location
      - **Pick Up Service**: Courier collects packages from your location
 
-5. **Configure Drop Off Location** (if applicable)
+6. **Configure Drop Off Location** (if applicable)
    - If you selected Drop Off Service, choose your preferred drop-off point from the available locations
 
-6. **Save Settings**
+7. **Save Settings**
    - Click "Save" to apply your configuration
+     
+<img width="1214" height="511" alt="image" src="https://github.com/user-attachments/assets/62aacbea-7cf0-49fe-9c52-02d3b9509add" />
 
-## How Auto Fulfilment Works
+
+## 🔄 How Auto Fulfilment Works
 
 The Auto Fulfilment process varies depending on your checkout configuration:
 
-### Scenario 1: EasyParcel Rates Enabled During Checkout
+### 🎯 Scenario 1: EasyParcel Rates Enabled During Checkout
 
 **Process Flow:**
 1. **Customer Places Order** → Customer selects an EasyParcel courier option during checkout
@@ -43,7 +48,7 @@ The Auto Fulfilment process varies depending on your checkout configuration:
    - **Fallback**: Default courier service from Auto Fulfilment settings (if customer's choice is unavailable)
 4. **Order Completion** → Once fulfilled, download the airway bill from WooCommerce Orders page
 
-### Scenario 2: Flat Rate Shipping During Checkout
+### 🎯 Scenario 2: Flat Rate Shipping During Checkout
 
 **Process Flow:**
 1. **Customer Places Order** → Customer selects from available flat-rate shipping options
@@ -51,7 +56,7 @@ The Auto Fulfilment process varies depending on your checkout configuration:
 3. **Courier Assignment** → Plugin uses the default courier service configured in Auto Fulfilment settings
 4. **Order Completion** → Once fulfilled, download the airway bill from WooCommerce Orders page
 
-## When to Use Auto Fulfilment
+## 🎯 When to Use Auto Fulfilment
 
 Auto Fulfilment is ideal when you:
 
@@ -61,7 +66,7 @@ Auto Fulfilment is ideal when you:
 - **Prefer automated workflows** over manual order processing
 - **Want to reduce shipping errors** and processing delays
 
-## Benefits
+## 🌟 Benefits
 
 - **Time-saving**: Eliminates manual order processing
 - **Consistency**: Ensures all orders are processed using your preferred settings
@@ -69,14 +74,14 @@ Auto Fulfilment is ideal when you:
 - **Improved efficiency**: Faster order turnaround times
 - **Better customer experience**: Quicker shipping notifications and tracking
 
-## Important Notes
+## ⚠️ Important Notes
 
 - Ensure your inventory is accurately maintained for smooth auto-fulfilment
 - Regularly check your Auto Fulfilment settings to ensure they match your current shipping preferences
 - Monitor processed orders periodically to catch any issues early
 - Keep your courier account in good standing to avoid fulfilment interruptions
 
-## Getting Your Airway Bills
+## 📄 Getting Your Airway Bills
 
 After orders are automatically fulfilled:
 1. Go to **WooCommerce > Orders**
