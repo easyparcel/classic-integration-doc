@@ -304,7 +304,3 @@ If you're on the Shopify Grow (monthly billing) plan, you'll either need to:
 </details>
 
 ---
-
-**Source Links:**
-- Technical Questions: 
-- Operation Questions: 
