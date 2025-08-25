@@ -53,8 +53,7 @@ This guide will walk you through integrating EasyParcel with WooCommerce using t
 **Step 1:** Go to your WooCommerce settings, click the 'Shipping tab', then click 'EasyParcel Shipping'. Fill in your details and click 'Save changes'.
 
 > **Note:** After filling out your address details, you may want to recheck it again to confirm the information, as quote rates will be based on the address you provided here.
-
-<img width="1020" height="568" alt="image" src="https://github.com/user-attachments/assets/f46e6aab-d544-4e49-9e1c-e065b5c50983" />
+<img width="967" height="530" alt="image" src="https://github.com/user-attachments/assets/23ba7862-315f-46ca-85db-aea39623e1d6" />
 
 <img width="1023" height="529" alt="image" src="https://github.com/user-attachments/assets/644e5f21-3e0e-47ff-9a07-94fa94f6fa4c" />
 
