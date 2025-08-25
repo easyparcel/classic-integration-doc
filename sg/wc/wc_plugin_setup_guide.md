@@ -178,6 +178,8 @@ This guide will walk you through integrating EasyParcel with WooCommerce using t
 
 ### Auto Fulfillment
 
+For full documentation on [Auto fulfilment](./wc_auto_fulfilment.md)
+
 **Step 1:** Go to easyparcel auto fulfilment settings tab.
 
 **Step 2:** Turn Auto Fulfil to Yes.
