@@ -221,27 +221,6 @@ It may be due to the easy parcel courier setting section where one zone is every
 </details>
 
 <details>
-<summary><strong>Q: Unable to find Singpost in courier setting</strong></summary>
-
-Due to recent Singpost brand name changes, Singpost will no longer be available as a courier option and has been updated to Speedpost. To change from Singpost to Speedpost:
-
-1. Go to WooCommerce -> Settings -> Shipping -> EasyParcel Courier Setting
-2. Select and Edit Zones that previously selected Singpost as Courier Service
-3. Delete the Singpost Courier
-4. Add new courier services
-5. Select Speedpost as Courier Service
-6. Select the rate settings preferred
-7. Save Changes.
-
-<img width="1280" height="502" alt="image" src="https://github.com/user-attachments/assets/d1fa15df-715b-4c40-979d-be4a78e66e86" />
-<img width="1280" height="555" alt="image" src="https://github.com/user-attachments/assets/4a2f0c01-ca57-4090-b793-71987b5ddc77" />
-<img width="1280" height="760" alt="image" src="https://github.com/user-attachments/assets/edcb40e3-41ba-468c-9983-2ce71869d47b" />
-
-May refer to trackxlogis document or you can re-add by shipping zone edit -> add courier -> choose speedpost courier -> then save changes
-
-</details>
-
-<details>
 <summary><strong>Q: Does Auto fulfilment courier support multiple couriers at the same time</strong></summary>
 
 If you allow customer to select our courier during check page then it will fulfil based on customer selected courier, while if using custom rate then currently  only able to select one
