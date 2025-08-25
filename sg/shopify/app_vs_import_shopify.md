@@ -1,4 +1,4 @@
-# EasyParcel Shopify Integration: Import vs App
+# EasyParcel Shopify Integration: App vs Import
 
 ## Overview
 
