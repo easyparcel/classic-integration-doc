@@ -4,7 +4,7 @@
 
 For comprehensive API documentation, integration guides, and detailed technical specifications, please visit our official developer portal:
 
-**[🔗 EasyParcel API Documentation](https://developers.easyparcel.com/)**
+**[🔗 EasyParcel API Documentation](https://developers.easyparcel.com/?c=Singapore)**
 
 ## What You'll Find
 
