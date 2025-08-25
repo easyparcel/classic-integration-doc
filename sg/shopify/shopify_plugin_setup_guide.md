@@ -117,7 +117,7 @@ Edit if needed, then click **Save**.
 
 ### 2: How to fulfill multiple Shopify orders at once?
 
-**Step 1:** After a customer places an order in your Shopify store, ensure the order's payment status is "Paid.
+**Step 1:** After a customer places an order in your Shopify store, ensure the order's payment status is "Paid".
 
 <img width="1328" height="313" alt="image" src="https://github.com/user-attachments/assets/acb4654b-c980-4332-bd3e-e5f2cfed9d94" />
 
