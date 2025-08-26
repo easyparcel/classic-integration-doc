@@ -3,9 +3,10 @@
 ## Technical Questions
 
 <details>
-<summary><strong>Q: Not able to choose the courier.</strong></summary>
-
-## Situation 1: Duplicate Billing Address
+<summary><strong>Q: Not able to choose the courier</strong></summary>
+<br></br>
+  
+**Situation 1: Duplicate Billing Address**
 - If your order shows **two identical billing addresses** and no shipping address:  
   1. Verify your order details.  
   2. Update and set one of the addresses as the shipping address.  
@@ -13,30 +14,32 @@
 
 ---
 
-## Situation 2: Missing Shipping Address
+**Situation 2: Missing Shipping Address**
 - If your order shows **only a billing address but no shipping address**:  
   1. Confirm if your billing address should also be the same as your shipping address.  
   2. If both of the address is the same, duplicated the address and updated it as the shipping address.  
 
 ---
 
-## Situation 3: Two Different Billing Addresses
+**Situation 3: Two Different Billing Addresses**
 - If your order shows **two different billing addresses**:  
   1. Confirm which one should be used as the shipping address.  
   2. Once confirmed, updated the address as the shipping address in the system.
+---
 
 </details>
 
 <details>
 <summary><strong>Q: Customer is having Import issues: "Receiver Contact is Empty"</strong></summary>
-  
+<br></br>
+
 [Edit shipping address > phone number] is empty. 
 
 <img width="1280" height="596" alt="image" src="https://github.com/user-attachments/assets/d3aecd5a-6ca4-45bc-908b-d0a21aa4d959" />
 
 **Note:** [Edit contact information > phone number] is not the one used
 
-**To Do:** ask the customer to enable require shipping phone number in checkout to avoid this issue
+**To Do:** Enable require shipping phone number in checkout to avoid this issue
 
 A tip for checking: 
 *Contact number in the contact information section will not be retrieved by our system* 
@@ -47,55 +50,56 @@ In their app if the order details Shipping Address don't have phone number means
 
 [Full documentation about this issue](https://easyparcel.sg.larksuite.com/docx/PSQ8dTBTuota4oxHeRuldxHzgSe)
 
-
 [Refer documentation about this issue](how_to_resolve_missing_phone_numbers_in_shopify_shipping_address.md)
-
-
 
 </details>
 
 <details>
 <summary><strong>Q: Error message shows when click on the Download Air Waybill</strong></summary>
+<br></br>
+  
+**A: The order need to be fulfilled first in order to get the AWB.**
 
 <img width="1280" height="588" alt="image" src="https://github.com/user-attachments/assets/4c4a3891-5be1-4f14-a62b-52435ce5cb82" />
-
-**A:** The order need to be fulfilled first in order to get the AWB.
 
 </details>
 
 <details>
 <summary><strong>Q: During import, the order has been proceeded, but failed due to some details are empty.</strong></summary>
 
+<br></br>
+**A: The error message will indicate the reason why the order could not be imported, and you can resolve the issue based on the details provided in the error message.**
+
 <img width="1280" height="540" alt="image" src="https://github.com/user-attachments/assets/8a8a5f63-ef21-4b7e-b0cd-ee50e333f270" />
 
-**A:** The error message will indicate the reason why the order could not be imported, and you can resolve the issue based on the details provided in the error message.
 
 </details>
 
 <details>
 <summary><strong>Q: No Tracking URL/ No downloadable AWB after fulfillment</strong></summary>
 
-
+A: Contact customer support [MY](https://app.easyparcel.com/my/en/contact-us/) / [SG](https://app.easyparcel.com/sg/en/contact-us/).
 
 </details>
 
 <details>
-<summary><strong>Q: Order cant import to EP website</strong></summary>
+<summary><strong>Q: Order unable import to EP website</strong></summary>
 
-<img width="2000" height="3556" alt="image" src="https://github.com/user-attachments/assets/619bb77f-9f44-446c-ac42-7789f91280ae" />
+<img width="1000" height="1778" alt="image" src="https://github.com/user-attachments/assets/619bb77f-9f44-446c-ac42-7789f91280ae" />
 
-**A**: Check if the URL are matched with your domain name in Shopify. For example:
+**A: Check if the URL are matched with your domain name in Shopify. For example:**
 
 <img width="1280" height="341" alt="image" src="https://github.com/user-attachments/assets/21821485-3181-42c5-848d-1d8ab4ef770b" />
 
-As a lot of customers mistakenly put their admin panel url instead
+**As a lot of customers mistakenly put their admin panel url instead**
 
 </details>
 
 <details>
 <summary><strong>Q: Changed the product weight but weight still the same in Shopify app</strong></summary>
-
-**A:** Due to Shopify design, products added to an order will remain its weight value, it will only use the newly set weight for new orders. However, there is a way to update the weight for existing orders. By removing the item from the order and re-adding it back.
+<br></br>
+  
+**A: Due to Shopify design, products added to an order will remain its weight value, it will only use the newly set weight for new orders. However, there is a way to update the weight for existing orders. By removing the item from the order and re-adding it back.**
 
 <img width="1280" height="649" alt="image" src="https://github.com/user-attachments/assets/5da783a6-f9e0-4521-ab30-8c42ba63a9c0" />
 
@@ -103,12 +107,16 @@ As a lot of customers mistakenly put their admin panel url instead
 
 <details>
 <summary><strong>Q: Order not showing up in app</strong></summary>
+<br></br>
 
-**A1:** Order was made before the easyparcel app was installed
-   
-**A2:** Orders older than 30 days will not show
-   
-**A3:** May clear browser cache and try again.
+**A1: Order was made before the easyparcel app was installed**
+
+
+**A2: Orders older than 30 days will not show**
+
+
+**A3: May clear browser cache and try again**
+
 
 </details>
 
