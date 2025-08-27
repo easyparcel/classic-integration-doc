@@ -135,21 +135,25 @@ This guide will walk you through integrating EasyParcel with WooCommerce using t
 ---
 
 ## Fulfillment on WooCommerce
+There's three ways to fulfil orders using easyparcel plugin
 
 ### Single Fulfillment
+Manual fulfilment with most control and flexibility
 
-For full documentation on [Single fulfilment](./wc_single_fulfilment.md)
+Check out on [Single fulfilment](./wc_single_fulfilment.md)
 
 
 ### Bulk Fulfillment
+Fulfil orders in bulk great for large order amounts
 
-For full documentation on [Bulk fulfilment](./wc_bulk_fulfilment.md)
+Check out on [Bulk fulfilment](./wc_bulk_fulfilment.md)
 
 
 
-### Auto Fulfillment (hands off method)
+### Auto Fulfillment 
+Most hands of method
 
-For full documentation on [Auto fulfilment](./wc_auto_fulfilment.md)
+Check out on [Auto fulfilment](./wc_auto_fulfilment.md)
 
 
 
