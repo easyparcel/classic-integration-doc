@@ -176,25 +176,11 @@ This guide will walk you through integrating EasyParcel with WooCommerce using t
 
 
 
-### Auto Fulfillment
+### Auto Fulfillment (hands off method)
 
 For full documentation on [Auto fulfilment](./wc_auto_fulfilment.md)
 
-**Step 1:** Go to easyparcel auto fulfilment settings tab.
 
-**Step 2:** Turn Auto Fulfil to Yes.
-
-**Step 3:** Choose your preferred couriers in the drop-down.
-
-**Step 4:** Choose Drop off/Pick Up date and click 'Fulfill Order'.
-
-**Step 5:** Select a drop off point if selected drop off point.
-
-**Step 6:** Cick Save.
-
-> **Note:** New incoming order will be auto fulfilled base on customer selected while fallback to the preffered courier if not avaliable.
-
-<img width="1200" height="513" alt="image" src="https://github.com/user-attachments/assets/78ff9e70-e305-4cae-ac0e-543c31d7b49c" />
 
 
 ---
