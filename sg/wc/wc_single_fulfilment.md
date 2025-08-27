@@ -132,3 +132,10 @@ Once fulfillment is complete, you can access important shipping documents:
 <aside class="notice">
 Single fulfillment gives you maximum control and flexibility for processing individual orders, ensuring each customer receives the best possible shipping experience.
 </aside>
+
+
+## 🚀 Next Steps
+
+Checkout:
+
+[Bulk Fulfilment](wc_bulk_fulfilment.md) | [Auto Fulfilment](wc_auto_fulfilment.md) | [Back to Setup guide](wc_plugin_setup_guide.md)
