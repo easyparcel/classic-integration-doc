@@ -143,7 +143,7 @@ For full documentation on [Single fulfilment](./wc_single_fulfilment.md)
 
 ### Bulk Fulfillment
 
-For full documentation on [Bulk fulfilment](./bulk_single_fulfilment.md)
+For full documentation on [Bulk fulfilment](./wc_bulk_fulfilment.md)
 
 
 
