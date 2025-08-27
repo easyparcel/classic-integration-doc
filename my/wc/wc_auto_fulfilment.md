@@ -89,3 +89,9 @@ After orders are automatically fulfilled:
 2. Find your processed order
 3. Click to download the corresponding airway bill
 4. Use the airway bill for package labeling and tracking
+
+## 🚀 Next Steps
+
+Checkout:
+
+[Single Fulfilment](wc_single_fulfilment.md) | [Bulk Fulfilment](wc_bulk_fulfilment.md) | [Back to Setup guide](wc_plugin_setup_guide.md)
