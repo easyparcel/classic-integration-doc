@@ -96,3 +96,9 @@ Order successfully fulfilled! The shipment has been created and submitted to the
 <aside class="notice">
 Single fulfillment gives you maximum control and flexibility for processing individual orders, ensuring each customer receives the best possible shipping experience.
 </aside>
+
+## 🚀 Next Steps
+
+Checkout:
+
+[Bulk Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_bulk_fulfilment.md) | [Auto Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_auto_fulfilment.md) | [Back to Setup guide](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_plugin_setup_guide.md)
