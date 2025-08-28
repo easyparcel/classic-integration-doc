@@ -104,4 +104,4 @@ Bulk fulfillment is designed for efficiency and scale. Start with smaller batche
 
 Checkout:
 
-[Single Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_single_fulfilment.md) | [Auto Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_auto_fulfilment.md) | [Back to Setup guide](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_plugin_setup_guide.md)
+[Single Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/my/shopify/shopify_single_fulfilment.md) | [Auto Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/my/shopify/shopify_auto_fulfilment.md) | [Back to Setup guide](https://github.com/easyparcel/classic-integration-doc/blob/main/my/shopify/shopify_plugin_setup_guide.md)
