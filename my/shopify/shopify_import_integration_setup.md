@@ -3,7 +3,7 @@
 ---
 
 ## Introduction
-This guide will walk you through integrating EasyParcel with Shopify using the App Version **Import Version** method. With this integration, you'll import orders from Shopify into your EasyParcel account for fulfillment.
+This guide will walk you through integrating EasyParcel with Shopify using the **Import Version** method. With this integration, you'll import orders from Shopify into your EasyParcel account for fulfillment.
 
 ---
 
