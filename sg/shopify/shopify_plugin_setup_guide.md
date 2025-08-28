@@ -76,4 +76,4 @@ Edit if needed, then click **Save**.
 
 Checkout:
 
-[Single Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_single_fulfilment.md) | [Auto Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_auto_fulfilment.md) |
+[Single Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_single_fulfilment.md) | [Bulk Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_bulk_fulfilment.md) |  [Auto Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_auto_fulfilment.md) |
