@@ -17,19 +17,19 @@ New to EasyParcel? Start here:
 <details>
 <summary><strong>Shopify</strong></summary>
 
-- [Shopify App vs Import Method Comparison](./sg/shopify/app_vs_import.md)
-- [Order Sync Guide](./sg/shopify/order-sync-guide.md)
-- [Missing Phone Number Resolution](./sg/shopify/phone-number-fix.md)
-- [FAQ](./sg/shopify/troubleshooting.md)
+- [Shopify App vs Import Method Comparison](./shopify/app_vs_import_shopify.md)
+- [Live Rate Feature](./shopify/live_rates_setup.md)
+- [Missing Phone Number Resolution](./shopify/how_to_resolve_missing_phone_numbers_in_shopify_shipping_address.md)
+- [FAQ](./shopify/Shopify_FAQ.md)
 
 </details>
 
 <details>
 <summary><strong>WooCommerce</strong></summary>
 
-- [Plugin vs Import Method Comparison](./sg/wc/plugin_vs_import.md)
-- [Plugin Installation Guide](./sg/wc/plugin_setup_wc.md)
-- [FAQs](./sg/wc/wc_FAQ.md)
+- [Plugin vs Import Method Comparison](./wc/import_vs_plugin_wc.md)
+- [Plugin Installation Guide](./wc/wc_plugin_setup_guide.md)
+- [FAQs](./wc/WC_FAQ.md)
 
 </details>
 
@@ -45,22 +45,22 @@ New to EasyParcel? Start here:
 <details>
 <summary><strong>SiteGaint</strong></summary>
 
-- [Address and Shipping Setup](./easystore/sitegaint_setup.md)
-- [EasyStore Integration FAQ](./easystore/FAQ.md)
+- [SiteGiant Setup](./sitegiant/sitegiant_setup.md)
+- [SiteGiant Integration FAQ](./sitegiant/sitegiant_FAQ.md)
 
 
 </details>
 
 ### 🔧 Direct Integrations
 
-- **[API Integration Guide](./api/api_documentaion.md)** - Custom implementation
+- **[API Integration Guide](./api/api_documentation.md)** - Custom implementation
 - **[API FAQ](./api/api_FAQ.md)** - Common questions and solutions
 
 
 
 ## 🤝 Contributing
 
-We welcome contributions to improve our documentation! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting:
+We welcome contributions to improve our documentation!
 
 - 🐛 Report bugs or issues
 - 📝 Suggest documentation improvements  
