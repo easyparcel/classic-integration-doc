@@ -106,3 +106,9 @@ Once you've configured the zone and courier services, the live shipping rates wi
 You've successfully set up EasyParcel Shopify display live rate at checkout page! This feature will simplify your deliveries.
 
 If you have any questions or need further assistance, [check out our other articles](https://helpcentre-my.easyparcel.com/support/home) or reach out to our friendly support team. We're happy to help you every step of the way!
+
+## 🚀 Next Steps
+
+Checkout:
+
+[Single Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_single_fulfilment.md) | [Bulk Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_bulk_fulfilment.md) |  [Auto Fulfilment](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_auto_fulfilment.md) |
