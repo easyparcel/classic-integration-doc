@@ -19,3 +19,7 @@
 **Step 4:** When you're ready to proceed with payment, select the orders and click 'Add to Cart'.
 
 <img width="1667" height="687" alt="image" src="https://github.com/user-attachments/assets/9062fb1d-1220-46e3-b77e-d1f94e03e129" />
+
+### Done ! You have successfully import the orders from shopify and added the orders into cart!, You may proceed to fulfill the orders as per normal
+
+### Check out more of our [shopify documentations](./)
