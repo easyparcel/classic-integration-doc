@@ -29,7 +29,7 @@ New to EasyParcel? Start here:
 
 - [Plugin vs Import Method Comparison](./wc/plugin_vs_import.md)
 - [Plugin Installation Guide](./wc/plugin_setup_wc.md)
-- [FAQs](./wc/wc_FAQ.md)
+- [FAQs](./wc/WC_FAQ.md)
 
 </details>
 
