@@ -19,8 +19,8 @@ New to EasyParcel? Start here:
 
 - [Shopify App vs Import Method Comparison](./shopify/app_vs_import_shopify.md)
 - [Live Rate Feature](./shopify/live_rates_setup.md)
-- [Missing Phone Number Resolution](./shopify/phone-number-fix.md)
-- [FAQ](./shopify/troubleshooting.md)
+- [Missing Phone Number Resolution](./shopify/how_to_resolve_missing_phone_numbers_in_shopify_shipping_address.md)
+- [FAQ](./shopify/Shopify_FAQ.md)
 
 </details>
 
