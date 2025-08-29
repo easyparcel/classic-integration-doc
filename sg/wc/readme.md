@@ -13,6 +13,6 @@
 ### [Plugin vs Import](./import_vs_plugin.md)
 
 ## Woocommerce Frequently asked Question
-### [FAQ](./wc_FAQ.md)
+### [FAQ](./WC_FAQ.md)
 
 
