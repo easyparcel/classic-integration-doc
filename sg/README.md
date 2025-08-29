@@ -2,13 +2,6 @@
 
 Welcome to the comprehensive EasyParcel integrations repository! This documentation hub contains everything you need to successfully integrate EasyParcel shipping services with your e-commerce platform.
 
-## 🚀 Quick Start
-
-New to EasyParcel? Start here:
-
-- **[API Documentation](https://developers.easyparcel.com/)** - Complete technical reference
-- **[Getting Started Guide](#)** - Step-by-step setup instructions
-- **[Integration Overview](#)** - Choose the right integration method
 
 ## 📋 Platform Integrations
 
