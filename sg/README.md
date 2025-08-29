@@ -17,10 +17,10 @@ New to EasyParcel? Start here:
 <details>
 <summary><strong>Shopify</strong></summary>
 
-- [Shopify App vs Import Method Comparison](./sg/shopify/app_vs_import.md)
-- [Order Sync Guide](./sg/shopify/order-sync-guide.md)
-- [Missing Phone Number Resolution](./sg/shopify/phone-number-fix.md)
-- [FAQ](./sg/shopify/troubleshooting.md)
+- [Shopify App vs Import Method Comparison](./shopify/app_vs_import.md)
+- [Order Sync Guide](./shopify/order-sync-guide.md)
+- [Missing Phone Number Resolution](./shopify/phone-number-fix.md)
+- [FAQ](./shopify/troubleshooting.md)
 
 </details>
 
