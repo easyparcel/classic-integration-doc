@@ -39,5 +39,5 @@ To fulfil your order, simply do it from your EasyParcel account. Here's how:
 
 ### Done ! You have successfully import the orders from woocommerce and added the orders into cart!, You may proceed to fulfil the orders as per normal
 
-### Check out more of our [woocommerce documentations](./wc)
+### Check out more of our [woocommerce documentations](./)
 
