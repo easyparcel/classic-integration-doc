@@ -16,7 +16,7 @@
 ### [Import Fulfilment](./wc_import_fulfilment.md)
 
 ## Difference Between Plugin and Import 
-### [Plugin vs Import](./import_vs_plugin.md)
+### [Plugin vs Import](./wc_import_vs_plugin.md)
 
 ## Woocommerce Frequently asked Question
 ### [FAQ](./WC_FAQ.md)
