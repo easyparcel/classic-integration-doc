@@ -27,21 +27,12 @@ In your Shopify admin panel, go to **Apps** and click on the **EasyParcel – De
 
 ---
 
-### Step 2: Activate Zone Settings
-Navigate to the **Setup** tab.
 
-Click to activate the **Zone Settings** (the button will turn into "Deactivate" once activated).
-
-<img width="1328" height="554" alt="image" src="https://github.com/user-attachments/assets/81fce8c4-89e8-4516-96e0-6784134d4452" />
-
-Then, click on the **Courier Setting** tab and click **Add Zone**.
+### Step 2: Create a Shipping Zone
+click on the **Courier Setting** tab and click **Add Zone**.
   
 <img width="1328" height="573" alt="image" src="https://github.com/user-attachments/assets/f0d0781b-caa2-4de4-8acf-19c5cf40c3c9" />
 
-
----
-
-### Step 3: Create a Shipping Zone
 Enter a **Zone Name** and choose the **Destination**.
 
 <img width="1920" height="824" alt="image" src="https://github.com/user-attachments/assets/e1afeff0-f3d6-47d6-a6f5-17cd7414d09a" />
@@ -53,14 +44,14 @@ Click **Save** to create the zone.
 
 ---
 
-### Step 4: Add Courier Services
+### Step 3: Add Courier Services
 Once the zone is created, click **Add Courier Service** to start adding available couriers for that zone.
 
 <img width="1893" height="824" alt="image" src="https://github.com/user-attachments/assets/a300b6f9-56c3-4eda-a028-83457c419712" />
 
 ---
 
-### Step 5: Configure Courier Options
+### Step 4: Configure Courier Options
 Set up each courier service with the following options:
 1. **Courier Service** — Choose your preferred courier.
 2. **Courier Display Name** — How it will appear to customers at checkout.
@@ -94,8 +85,16 @@ Set up each courier service with the following options:
 
 ---
 
+### Step 5: Activate Zone Settings
+Navigate to the **Setup** tab.
+
+Click to activate the **Zone Settings** (the button will turn into "Deactivate" once activated).
+
+<img width="1328" height="554" alt="image" src="https://github.com/user-attachments/assets/81fce8c4-89e8-4516-96e0-6784134d4452" />
+
+
 ### Step 6: Confirm Setup
-Once you've configured the zone and courier services, the live shipping rates will be displayed at checkout—simplifying the shipping process for customers!
+Once you've configured the zone and courier services and activate the settings, the live shipping rates will be displayed at checkout—simplifying the shipping process for customers!
 
 <img width="1328" height="697" alt="image" src="https://github.com/user-attachments/assets/8b90cac9-177b-43ed-a290-c0d52600f195" />
 
