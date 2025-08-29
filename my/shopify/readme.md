@@ -13,7 +13,7 @@
 ### [Import Setup](./shopify_import_integration_setup.md)
 
 ## Import Fulfilment Steps
-### [Import Fulfilment](./shopify_import_fulfilment.md)
+### [Import Fulfilment](shopify_import_fulfilment.md)
 
 ## Difference Between App and Import 
 ### [Plugin vs Import](./app_vs_import_shopify.md)
