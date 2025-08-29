@@ -53,7 +53,7 @@ New to EasyParcel? Start here:
 
 ### 🔧 Direct Integrations
 
-- **[API Integration Guide](./api/api_documentaion.md)** - Custom implementation
+- **[API Integration Guide](./api/api_documentation.md)** - Custom implementation
 - **[API FAQ](./api/api_FAQ.md)** - Common questions and solutions
 
 
