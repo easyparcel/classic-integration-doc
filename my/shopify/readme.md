@@ -21,4 +21,5 @@
 ## Shopify Frequently asked Question
 ### [FAQ](./WC_FAQ.md)
 
+### [Live Rate Feature](./live_rates_setup.md)
 
