@@ -45,8 +45,8 @@ New to EasyParcel? Start here:
 <details>
 <summary><strong>SiteGaint</strong></summary>
 
-- [Address and Shipping Setup](./easystore/sitegaint_setup.md)
-- [EasyStore Integration FAQ](./easystore/FAQ.md)
+- [SiteGiant Setup](./sitegiant/sitegiant_setup.md)
+- [SiteGiant Integration FAQ](./sitegiant/sitegiant_FAQ.md)
 
 
 </details>
