@@ -73,7 +73,7 @@ Edit if needed, then click **Save**.
 ---
 
 ### Do you shopify growth plan annually billing a above ?
-Check out our ***[Live Rate Feature](./live_rates_setup.md)
+Check out our ***[Live Rate Feature](./live_rates_setup.md)***
 
 ## 🚀 Next Steps
 
