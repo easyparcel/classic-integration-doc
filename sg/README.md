@@ -27,8 +27,8 @@ New to EasyParcel? Start here:
 <details>
 <summary><strong>WooCommerce</strong></summary>
 
-- [Plugin vs Import Method Comparison](./wc/plugin_vs_import.md)
-- [Plugin Installation Guide](./wc/plugin_setup_wc.md)
+- [Plugin vs Import Method Comparison](./wc/import_vs_plugin_wc.md)
+- [Plugin Installation Guide](./wc/wc_plugin_setup_guide.md)
 - [FAQs](./wc/WC_FAQ.md)
 
 </details>
