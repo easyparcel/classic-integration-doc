@@ -36,7 +36,6 @@ The EasyParcel WooCommerce Plugin is a WordPress plugin that provides seamless, 
 
 
 ### Cons:
-- ❌ Fewer courier service options
 - ❌ Longer setup time
 
 
