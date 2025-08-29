@@ -60,7 +60,7 @@ New to EasyParcel? Start here:
 
 ## 🤝 Contributing
 
-We welcome contributions to improve our documentation! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting:
+We welcome contributions to improve our documentation!
 
 - 🐛 Report bugs or issues
 - 📝 Suggest documentation improvements  
