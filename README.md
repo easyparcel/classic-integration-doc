@@ -1,93 +1,97 @@
-# 📦 EasyParcel Integrations Guide & Documentation
+# 📦 EasyParcel Integration Documentation
 
-Welcome to the comprehensive EasyParcel integrations repository! This documentation hub contains everything you need to successfully integrate EasyParcel shipping services with your e-commerce platform.
+Welcome to EasyParcel! We're your trusted shipping partner across Southeast Asia, providing seamless e-commerce logistics solutions.
 
-## 📋 Platform Integrations
+## 🌏 Choose Your Region
 
-### 🛒 E-commerce Platforms
-
-<details>
-<summary><strong>Shopify</strong></summary>
-
-- [Shopify App vs Import Method Comparison](./shopify/app_vs_import_shopify.md)
-- [Live Rate Feature](./shopify/live_rates_setup.md)
-- [Missing Phone Number Resolution](./shopify/how_to_resolve_missing_phone_numbers_in_shopify_shipping_address.md)
-- [FAQ](./shopify/Shopify_FAQ.md)
-
-</details>
-
-<details>
-<summary><strong>WooCommerce</strong></summary>
-
-- [Plugin vs Import Method Comparison](./wc/import_vs_plugin_wc.md)
-- [Plugin Installation Guide](./wc/wc_plugin_setup_guide.md)
-- [FAQs](./wc/WC_FAQ.md)
-
-</details>
-
-<details>
-<summary><strong>EasyStore</strong></summary>
-  
-- [Address and Shipping Setup](./easystore/easystore_setup.md)
-- [EasyStore Integration FAQ](./easystore/easystore_FAQ.md)
-
-
-</details>
-
-<details>
-<summary><strong>SiteGaint</strong></summary>
-
-- [SiteGiant Setup](./sitegiant/sitegiant_setup.md)
-- [SiteGiant Integration FAQ](./sitegiant/sitegiant_FAQ.md)
-
-
-</details>
-
-### 🔧 Direct Integrations
-
-- **[API Integration Guide](./api/api_documentation.md)** - Custom implementation
-- **[API FAQ](./api/api_FAQ.md)** - Common questions and solutions
-
-
-
-## 🤝 Contributing
-
-We welcome contributions to improve our documentation!
-
-- 🐛 Report bugs or issues
-- 📝 Suggest documentation improvements  
-- 💡 Share integration examples
-- 🔍 Help with translations
-
-## 📊 Integration Status
-
-| Platform | Status | Documentation | Support Level |
-|----------|--------|---------------|---------------|
-| Shopify | ✅ Active | Complete | Full |
-| WooCommerce | ✅ Active | Complete | Full |
-| EasyStore | ✅ Active | Complete | Full |
-| Site Gaint | ✅ Active | Complete | Full |
-| API Direct | ✅ Active | Complete | Full |
-
-
-## 🏗️ Repository Structure
-
-```
-├── api/                # API integration guides
-├── shopify/            # Shopify-specific documentation  
-├── wc/                 # WooCommerce integration guides
-├── easystore/          # EasyStore platform guides
-└── sitegaint/          # General resources and references
-
-```
+Select your country/region to access the relevant documentation, integration guides, and support resources:
 
 ---
 
 <div align="center">
 
-**Ready to get started?** 
+## 🇲🇾 Malaysia
 
-[🚀 **Choose Your Platform**](#-platform-integrations) | [📖 **View API Docs**](https://developers.easyparcel.com/) | [💬 **Get Support**](https://api.whatsapp.com/send/?phone=6042023160&text&type=phone_number&app_absent=0)
+**For merchants and developers in Malaysia**
 
+[![Malaysia Documentation](https://img.shields.io/badge/Malaysia-Documentation-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K)](./my/)
+
+### What's included:
+- ✅ **Local Integration Guides** - Shopify, WooCommerce, EasyStore
+
+---
+
+## 🇸🇬 Singapore
+
+**For merchants and developers in Singapore**
+
+[![Singapore Documentation](https://img.shields.io/badge/Singapore-Documentation-red?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K)](./sg/)
+
+### What's included:
+- ✅ **Local Integration Guides** - Platform-specific setup for SG
+
+</div>
+
+---
+
+## 🤔 Not Sure Which Region?
+
+<details>
+<summary><strong>Click here for guidance</strong></summary>
+
+### Choose **Malaysia** if:
+- Your business is registered in Malaysia
+- You're shipping primarily ships from Malaysia
+- You need Malaysian courier services (Pos Laju, City-Link, etc.)
+- You require SST tax calculations
+
+### Choose **Singapore** if:
+- Your business is registered in Singapore
+- You're shipping primarily ships from  Singapore
+- You need Singapore courier services (SingPost, etc.)
+
+### Multiple Regions?
+If you operate in both countries, you can access both documentation sets. Each region has specific features and courier partnerships tailored to local requirements.
+
+</details>
+
+---
+
+## 🔗 Quick Links
+
+| Resource | Malaysia | Singapore |
+|----------|----------|-----------|
+| **API Documentation/Guides** | [MY API Docs](./my/api/) | [SG API Docs](./sg/api/) |
+| **Shopify Guides** | [MY Shopify](./my/shopify/) | [SG Shopify](./sg/shopify/) |
+| **Woocommerce Guides** | [MY WooCommerce](./my/wc/) | [SG WooCommerce](./sg/wc/) |
+| **Easystore Guides** | [MY Easystore](./my/easystore/) | [SG Easystore](./sg/easystore/) |
+| **SiteGiant Guides** | [MY SiteGiant](./my/sitegiant/) | [SG SiteGiant](./sg/sitegiant/) |
+
+
+---
+
+## 🌟 Why Choose EasyParcel?
+
+- **🚀 Easy Integration** - Simple APIs and platform plugins
+- **📦 Multiple Couriers** - Access to top regional carriers
+- **💰 Competitive Rates** - Best shipping prices for your business
+- **📊 Advanced Tracking** - Real-time shipment monitoring
+- **🛠️ Developer Friendly** - Comprehensive documentation and tools
+- **📞 Local Support** - Dedicated regional customer service
+
+---
+
+## 📞 Contact Information
+- **Whatsapp**: +604-2023160
+- **Hours**: 9:00 AM - 6:00 PM (MYT / SGT)
+- **Operating Days**: Monday to Friday (excluding Malaysian public holidays)
+
+---
+
+<div align="center">
+
+## 🚀 Ready to Ship?
+
+**Choose your region above to get started with EasyParcel integrations!**
 
 </div>
