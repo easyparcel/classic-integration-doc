@@ -29,25 +29,30 @@ Individual API documentation > Rate Checking > "delivery" result
 ### Q: May I get the list of couriers supported by easyparcel?
 
 **Current courier list with id (22th Aug 2025):**
-
-- EP-CR0AX - Aramex International Logistics Pte Ltd
-- EP-CR0AS - SF Express (Singapore) Pte Ltd.
-- EP-CR0AK - United Parcel Service Singapore Pte Ltd
-- EP-CR0AC - XDel Singapore Pte Ltd
-- EP-CR0A3 - Airpak Express Pte Ltd
-- EP-CR0AO - Park N Parcel Pte Ltd
-- EP-CR0AV - Ninja Logistics Pte.Ltd
-- EP-CR0A8 - Janio Technologies Pte Ltd
-- EP-CR0DA - J&T Express Singapore Pte Ltd
-- EP-CR0DD - Singapore Post Limited
-- EP-CR0DF - TracX Logis Pte. Ltd
-- EP-CR0DG - Pickupp Pte Ltd
-- EP-CR0DY - TNT Express Worldwide (S) Pte Ltd
-- EP-CR0DB - Federal Express (Singapore) Pte. Ltd
-- EP-CR0DJ - Teleport Everywhere Pte Ltd
-- EP-CR0DZ - MXHL Pte Ltd
-- EP-CR0D2 - City-Link Express & Logistics (S) Pte Ltd
-- EP-CR0IF - SPX Express Private Limited
+- EP-CR0A - Poslaju National Courier
+- EP-CR05 - Skynet Express (M) Sdn. Bhd.
+- EP-CR0X - SF Global Express
+- EP-CR0B - EMS (Pos Malaysia Berhad
+- EP-CR0C - DHL eCommerce
+- EP-CR03 - Aramex
+- EP-CR06 - Aramex International
+- EP-CR0H - KEX Express
+- EP-CR01 - UTS Logistics Sdn Bhd
+- EP-CR0T - Federal Express Services (M) Sdn Bhd
+- EP-CR0AL - Teleport Commerce Malaysia Sdn Bhd
+- EP-CR0DI - Janio Technologies Sdn. Bhd
+- EP-CR0D5 - Qxpress Sdn Bhd
+- EP-CR0DP - J&T Express (Malaysia) Sdn. Bhd
+- EP-CR0DS - Flash Malaysia Express Sdn. Bhd
+- EP-CR0DU - Ninja Logistics Sdn Bhd
+- EP-CR0D3 - J&T Cargo (M) Sdn. Bhd
+- EP-CR0DH - Best Global Logistics Technology (Malaysia) Sdn. Bhd
+- EP-CR0D1 - City-Link Express (M) Sdn. Bhd
+- EP-CR0DT - United Parcel Service (M) Sdn Bhd
+- EP-CR0DL - PSH Express Sdn Bhd
+- EP-CR0ID - Pos Malaysia Berhad (Melplus)
+- EP-CR0II - Celsius Express Sdn. Bhd
+- EP-CR0I5 - SPX Xpress (Malaysia) Sdn Bhd
 
 
 ### Q: Why FedEx and UPS will not return on External API?
