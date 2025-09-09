@@ -13,7 +13,9 @@ If you're on the Shopify **Grow (monthly billing)** plan, you'll either need to:
 - Add this feature to your plan (for an extra monthly fee), or  
 - Switch to annual billing to activate it.  
 For more assistance, please reach out to **Shopify Support**.
-<img width="1204" height="683" alt="Advanced" src="https://github.com/user-attachments/assets/e9e29122-fb9e-4497-b337-fbf00004365b" />
+
+<img width="1201" height="582" alt="Screenshot 2025-09-09 at 5 02 52 PM" src="https://github.com/user-attachments/assets/b1dff5cc-7c17-432d-a379-5f6fb45e62c3" />
+
 
 
 ---
