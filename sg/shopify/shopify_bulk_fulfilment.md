@@ -17,28 +17,18 @@ Bulk fulfillment allows you to process multiple orders simultaneously, significa
 
 ## 🚀 Bulk Fulfillment Process
 
-### Step 1: After a customer places an order in your Shopify store, ensure the order's payment status is "Paid"
+## Step 1: Select Orders
 
-<img width="1328" height="313" alt="image" src="https://github.com/user-attachments/assets/55097134-f440-4cce-b3ae-2ce11f0a95b8" />
+1. In the **Orders** section, select the orders you wish to fulfill. 
+
+2. Click the **three dots (...)** menu.  
+
+3. Choose **`EasyParcel Fulfillment`**.  
+
+<img width="1280" height="700" alt="image" src="https://github.com/user-attachments/assets/62f2d29f-c29b-42e1-a5f1-33ff01c430c1" />
 
 
-### Step 2: In your Shopify admin, click on "Apps" and select the "EasyParcel- Delivery Made Easy" app
-
-**Note: If you haven't yet installed the EasyParcel Shopify app, refer to these instructions to [learn more](https://github.com/easyparcel/classic-integration-doc/blob/main/sg/shopify/shopify_plugin_setup_guide.md) about integrating with EasyParcel.**
-
-<img width="1328" height="624" alt="image" src="https://github.com/user-attachments/assets/fae45680-881f-4243-a143-4f94cf745dda" />
-
-### Step 3: Select Orders
-
-1. In the "Orders" section, apply filters to find the orders you want to fulfill.
-
-2. Select the checkbox next to each order.
-
-3. Click "Fulfill Orders.
-
-<img width="1328" height="750" alt="image" src="https://github.com/user-attachments/assets/d5027145-9fae-4883-a0c1-bf68f5794dd0" />
-
-## Step 4: Choose Courier and Pickup Date
+## Step 2: Choose Courier and Pickup Date
 
 1. Navigate directly to the **Bulk Fulfillment** page.  
 
@@ -54,14 +44,13 @@ Bulk fulfillment allows you to process multiple orders simultaneously, significa
 
 
 
-## Step 5: AWB Generation
+## Step 3: AWB Generation
 
 1. Once you click **`Create Orders`**, the air waybills will take approximately **2 minutes** to generate.  
 
 <img width="2437" height="1281" alt="image" src="https://github.com/user-attachments/assets/4f2d75c3-13e4-40a2-be3f-3247f9fc8149" />
 
 <img width="2428" height="1280" alt="image" src="https://github.com/user-attachments/assets/84a51c7e-0257-4a52-b391-5a7e44d8d6d7" />
-
 
 2. The status will be shown as **Processing**. 
 
@@ -73,7 +62,8 @@ Bulk fulfillment allows you to process multiple orders simultaneously, significa
 
 5. Click **`Here`** to download the AWB — it will be saved successfully.  
 
-### Step 6: You may refer the tracking status of your order here
+
+### Step 4: You may refer the tracking status of your order here
 
 1. **You can get the tracking number here**
 
@@ -82,6 +72,8 @@ Bulk fulfillment allows you to process multiple orders simultaneously, significa
 3. **You may refer the tracking status of your order here too**
 
 <img width="1328" height="622" alt="image" src="https://github.com/user-attachments/assets/e121b6ee-1733-4b05-a8c5-47e5aa691f71" />
+
+
 
 
 ## Fulfillment Batches
