@@ -38,25 +38,40 @@ Bulk fulfillment allows you to process multiple orders simultaneously, significa
 
 <img width="1328" height="750" alt="image" src="https://github.com/user-attachments/assets/d5027145-9fae-4883-a0c1-bf68f5794dd0" />
 
-### Step 4: Choose Courier and Pickup Date
+## Step 4: Choose Courier and Pickup Date
 
-1. A pop-up window will appear.
+1. Navigate directly to the **Bulk Fulfillment** page.  
 
-2. Select your desired courier and pickup date.
+2. Scroll down the page.
+   
+<img width="2472" height="1341" alt="image" src="https://github.com/user-attachments/assets/fd990cd7-a952-4cf0-b4bc-e772bd320206" />
 
-3. Click "Submit".
+4. Select your preferred **courier** and **pickup date**.  
 
-<img width="1328" height="743" alt="image" src="https://github.com/user-attachments/assets/dbaafc42-8335-44aa-8e5c-6d349e863735" />
+5. Click **`Create Orders`** to proceed.
+   
+<img width="2436" height="1304" alt="image" src="https://github.com/user-attachments/assets/16615c96-1497-4108-a30c-ea19ff1c0e09" />
 
-### Step 5: AWB Generation and Tracking
 
-1. Your Air Waybills (AWBs) will be generated automatically.
 
-2. You can find the tracking numbers on "Tracking Number" coulumn.
-<img width="1328" height="778" alt="image" src="https://github.com/user-attachments/assets/091d935e-333c-4cb4-a88a-e8f9b3b34599" />
+## Step 5: AWB Generation
 
-3. Click "Download AWB" to print and attach the AWBs to your parcels.
-<img width="1328" height="743" alt="image" src="https://github.com/user-attachments/assets/9ae3bfaf-df87-4c3f-8224-bc41badf4d56" />
+1. Once you click **`Create Orders`**, the air waybills will take approximately **2 minutes** to generate.  
+
+<img width="2437" height="1281" alt="image" src="https://github.com/user-attachments/assets/4f2d75c3-13e4-40a2-be3f-3247f9fc8149" />
+
+<img width="2428" height="1280" alt="image" src="https://github.com/user-attachments/assets/84a51c7e-0257-4a52-b391-5a7e44d8d6d7" />
+
+
+2. The status will be shown as **Processing**. 
+
+3. Once ready, click **`Refresh`** and then **`Download AWB`**. 
+
+<img width="2444" height="1333" alt="image" src="https://github.com/user-attachments/assets/0158a79c-df6c-4f17-aa7c-799786339393" />
+
+4. After clicking **`Download AWB`**, a pop-up window will appear.  
+
+5. Click **`Here`** to download the AWB — it will be saved successfully.  
 
 ### Step 6: You may refer the tracking status of your order here
 
@@ -67,6 +82,16 @@ Bulk fulfillment allows you to process multiple orders simultaneously, significa
 3. **You may refer the tracking status of your order here too**
 
 <img width="1328" height="622" alt="image" src="https://github.com/user-attachments/assets/e121b6ee-1733-4b05-a8c5-47e5aa691f71" />
+
+
+## Fulfillment Batches
+
+<img width="1280" height="678" alt="image" src="https://github.com/user-attachments/assets/eefce95d-517d-40af-be2e-f594c7de212b" />
+
+
+This page displays the **bulk fulfillment batches** you’ve previously created.  
+You can open the **batch details page** to download the **AWBs** for each batch.  
+
 
 ---
 
