@@ -74,7 +74,8 @@ Bulk fulfillment allows you to process multiple orders simultaneously, significa
 
 3. **You may refer the tracking status of your order here too**
 
-<img width="1280" height="698" alt="image" src="https://github.com/user-attachments/assets/f6d48a0e-6b71-4ad5-bff2-d061eec6be6f" />
+<img width="1280" height="658" alt="image" src="https://github.com/user-attachments/assets/f5b8b83a-2f07-4520-9b42-ca1cd8f3a13e" />
+
 
 
 ## Fulfillment Batches
