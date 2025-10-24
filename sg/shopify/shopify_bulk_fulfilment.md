@@ -59,7 +59,8 @@ Bulk fulfillment allows you to process multiple orders simultaneously, significa
 
 3. Once ready, click **`Refresh`** and then **`Download AWB`**. 
 
-<img width="1280" height="658" alt="image" src="https://github.com/user-attachments/assets/f5b8b83a-2f07-4520-9b42-ca1cd8f3a13e" />
+<img width="1280" height="698" alt="image" src="https://github.com/user-attachments/assets/07bea8bb-97d8-475f-bb82-e2569bd3f143" />
+
 
 4. After clicking **`Download AWB`**, a pop-up window will appear.  
 
