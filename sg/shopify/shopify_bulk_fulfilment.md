@@ -80,8 +80,10 @@ Bulk fulfillment allows you to process multiple orders simultaneously, significa
 
 ## Fulfillment Batches
 
-<img width="1280" height="658" alt="image" src="https://github.com/user-attachments/assets/db6ec10e-337d-4fe0-90c6-f9dac2117140" />
-<img width="1280" height="678" alt="image" src="https://github.com/user-attachments/assets/89ee654a-0b7f-46d0-8e96-966ee5ce8e18" />
+<img width="1280" height="658" alt="image" src="https://github.com/user-attachments/assets/62b29c57-312f-4990-a4cc-d2fb25cccab2" />
+
+<img width="1280" height="678" alt="image" src="https://github.com/user-attachments/assets/adc33953-3aef-420b-9112-f0bdabe4f8b3" />
+
 
 
 
