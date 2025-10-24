@@ -50,9 +50,10 @@ Bulk fulfillment allows you to process multiple orders simultaneously, significa
 
 1. Once you click **`Create Orders`**, the air waybills will take approximately **2 minutes** to generate.  
 
-<img width="2437" height="1281" alt="image" src="https://github.com/user-attachments/assets/4f2d75c3-13e4-40a2-be3f-3247f9fc8149" />
+<img width="1280" height="672" alt="image" src="https://github.com/user-attachments/assets/052694bd-717b-4b7e-8bad-bf9289dc41d1" />
 
-<img width="2428" height="1280" alt="image" src="https://github.com/user-attachments/assets/84a51c7e-0257-4a52-b391-5a7e44d8d6d7" />
+<img width="2428" height="1280" alt="image" src="https://github.com/user-attachments/assets/60cfad39-7193-40a5-b5e9-3080990c071e" />
+
 
 2. The status will be shown as **Processing**. 
 
