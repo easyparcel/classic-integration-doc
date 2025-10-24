@@ -25,7 +25,8 @@ Bulk fulfillment allows you to process multiple orders simultaneously, significa
 
 3. Choose **`EasyParcel Fulfillment`**.  
 
-<img width="1280" height="700" alt="image" src="https://github.com/user-attachments/assets/62f2d29f-c29b-42e1-a5f1-33ff01c430c1" />
+<img width="1280" height="700" alt="image" src="https://github.com/user-attachments/assets/8cda7a3a-4820-4b21-adfe-0c7289c7159c" />
+
 
 
 ## Step 2: Choose Courier and Pickup Date
@@ -34,13 +35,14 @@ Bulk fulfillment allows you to process multiple orders simultaneously, significa
 
 2. Scroll down the page.
    
-<img width="2472" height="1341" alt="image" src="https://github.com/user-attachments/assets/fd990cd7-a952-4cf0-b4bc-e772bd320206" />
+<img width="1280" height="694" alt="image" src="https://github.com/user-attachments/assets/1d36a790-9c09-4424-86cf-63911d093767" />
+
 
 4. Select your preferred **courier** and **pickup date**.  
 
 5. Click **`Create Orders`** to proceed.
    
-<img width="2436" height="1304" alt="image" src="https://github.com/user-attachments/assets/16615c96-1497-4108-a30c-ea19ff1c0e09" />
+<img width="1280" height="685" alt="image" src="https://github.com/user-attachments/assets/25d5f0ec-b0a1-4550-80e0-390eae55d658" />
 
 
 
