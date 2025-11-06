@@ -31,3 +31,10 @@ Customer will pay:
  **After set conversion rate:**                                              
 
 <img width="1280" height="677" alt="image" src="https://github.com/user-attachments/assets/4ee6e073-a2a2-4249-b79e-972abde7db82" />
+
+### Parcel Value Example
+Product price: **100 USD**  
+System sends to EasyParcel:
+
+`100 × 4.20 = 420 MYR`
+
