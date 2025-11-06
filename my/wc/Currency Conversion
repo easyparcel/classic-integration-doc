@@ -1,1 +1,26 @@
 
+## Currency Conversion
+Use this when your WooCommerce store currency is different from your EasyParcel currency.
+
+
+Example:
+- Store currency: USD
+- EasyParcel currency: MYR
+
+Enter how many MYR = 1 USD.
+If **1 USD = 4.20 MYR**, type:
+
+`4.20`
+
+### Shipping Example
+EasyParcel returns: **7.19 MYR**  
+Conversion rate: **4.20**  
+Customer pays:
+
+`7.19 ÷ 4.20 = 1.71 USD`
+
+### Parcel Value Example
+Product price: **100 USD**  
+System sends to EasyParcel:
+
+`100 × 4.20 = 420 MYR`
