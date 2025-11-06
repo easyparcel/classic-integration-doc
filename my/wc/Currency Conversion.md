@@ -24,16 +24,15 @@ If **1 USD = 4.20 MYR**, enter:
 Customer will pay:
 `7.19 ÷ 4.20 = 1.71 USD`
 
+ **Before set conversion rate:** 
+
 <img width="1280" height="677" alt="image" src="https://github.com/user-attachments/assets/6d5a4ad1-e8dc-4015-9b4c-617bbd55f361" />
 
-
-  **Before set conversion rate:** 
-                                              
+ **After set conversion rate:**                                              
 
 <img width="1280" height="677" alt="image" src="https://github.com/user-attachments/assets/4ee6e073-a2a2-4249-b79e-972abde7db82" />
 
-
-  **After set conversion rate:**  
+  
 
 
 ### Parcel Value Example
