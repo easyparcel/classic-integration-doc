@@ -17,6 +17,8 @@ This guide will walk you through integrating EasyParcel with WooCommerce using t
 
 <img width="1881" height="829" alt="image" src="https://github.com/user-attachments/assets/0bc67d28-eadf-4895-81ad-9376d61daa04" />
 
+## Get WooCommerce Consumer and Scecret key
+
 **Step 3:** Go to your WooCommerce Settings, click the 'Advanced' tab, click 'REST API', then click 'Add Key'.
 
 <img width="1899" height="824" alt="image" src="https://github.com/user-attachments/assets/2e7d18eb-ef4e-4793-8b77-ea7c1eb4f887" />
