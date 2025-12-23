@@ -15,7 +15,7 @@
 #### Step 5: Scroll down, it will show the cancellation record of this order.
 <img width="1280" height="713" alt="cancel5" src="https://github.com/user-attachments/assets/eeb97edd-b93d-4625-88a8-562a41014c7a" />
 
-#### Step 6: Some courier services may not support cancellation directly on Shopify. It will show a Pop-up message like this after clicking 'Yes, Cancel Fulfillment' at Step 3. In this situation, just click 'Yes, Cancel on Shopify Only'.
+#### Step 6: Some orders could not be cancelled directly in EasyParcel after clicking 'Yes, Cancel Fulfillment' at Step 3. You may contact EasyParcel support team by clicking the 'here', if you still want to proceed. And click 'Yes, Cancel on Shopify only' to cancel the orders on Shopify in order to refulfill again. If not, you can click 'No, Keep Fulfillment'.
 <img width="2560" height="1422" alt="cancel6" src="https://github.com/user-attachments/assets/a30d048d-2eab-4158-a0c7-72b95484d49d" />
 
 #### Step 7: After that, contact EasyParcel support team by clicking the 'here'. 
