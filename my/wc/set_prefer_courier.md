@@ -1,5 +1,5 @@
-# Set Prefer Courier Option show to your customer in your Woocommerce Store.
-This guideline is help you to set the courier that you prefer to display in the customer checkout page.
+# Set Prefer Courier Option 🚚 display to your customer in your Woocommerce Store.
+This guideline is help you to set the courier 🚚 that you prefer to display in the customer checkout page.
 
 
 ## Navigation path
@@ -43,6 +43,6 @@ Select the courier that you prefer to show in the check-out page. You may also c
 You may enable the free shipping rule (optional)
 <img width="1120" height="206" alt="Screenshot 2026-02-27 at 4 35 56 PM" src="https://github.com/user-attachments/assets/d3b7d51b-eecf-415a-9b41-0c70733f4405" />
 
-System flow explanation
+🚨 System flow explanation
 1. The system first checks the customer’s shipping address and matches it with the configured Shipping Zones in WooCommerce to determine the applicable shipping method.
 2. If the shipping method for that zone is set to EasyParcel Shipping , the system will then refer to the EasyParcel courier settings . Based on the customer’s region, it will retrieve and display the available couriers and default courier options from EasyParcel.
