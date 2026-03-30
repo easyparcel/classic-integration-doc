@@ -43,13 +43,16 @@ If no pre-configured rates are available:
 
 1. **Enter the quantity of items you wish to ship**
 
-2. **Click "Get Quote" to view available courier options and rates**
+2. **You may select your preferred pick-up date.(Optional)** If none is selected, the system will automatically choose the next day for pick-up.
 
-3. **Select your preferred courier service**
+3.  **Click "Get Quote" to view available courier options and rates**
 
-4. **Click "Fulfill Order" to complete the shipping process**
+4. **Select your preferred courier service**
 
-<img width="1328" height="1055" alt="image" src="https://github.com/user-attachments/assets/9242c21b-5e24-475d-81d5-c7c81bb7310e" />
+5. **Click "Fulfill Order" to complete the shipping process**
+
+
+<img width="1280" height="633" alt="Screenshot 2026-03-30 at 5 39 31 PM" src="https://github.com/user-attachments/assets/844aa945-00c0-4ef4-9226-4a3ac5f24a72" />
 
 
 ### Step 5: AWB auto-generated
