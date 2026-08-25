@@ -13,9 +13,9 @@ On-Demand delivery lets you send a WooCommerce order **point-to-point** with an 
 3. [Fulfil a single order with On-Demand](#3-fulfil-a-single-order-with-on-demand)
 4. [Bulk On-Demand booking](#4-bulk-on-demand-booking)
 5. [Let buyers pin their location at checkout (optional)](#5-let-buyers-pin-their-location-at-checkout-optional)
-6. [On-Demand live rate at checkout (optional)](#6-ondemand-shipping-price-at-checkout-optional)
-7. [Track & manage an On-Demand order](#6-track--manage-an-on-demand-order)
-8. [Tips & troubleshooting](#7-tips--troubleshooting)
+6. [On-Demand live rate at checkout (optional)](#6-on-demand-live-rate-at-checkout-optional)
+7. [Track & manage an On-Demand order](#7-track--manage-an-on-demand-order)
+8. [Tips & troubleshooting](#8-tips--troubleshooting)
 
 ---
 
