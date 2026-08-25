@@ -4,8 +4,6 @@ On-Demand delivery lets you send a WooCommerce order **point-to-point** with an 
 
 > ℹ️ On-Demand is available when your **sender (pick-up) address is in Malaysia (MY) or Singapore (SG)**.
 
-> 🖼️ **Note for maintainers:** the `![...](images/...)` lines below are placeholders. Replace each image, or capture the screenshot described in the `<!-- 📸 ... -->` comment above it. Put images under `docs/images/woocommerce/`.
-
 ---
 
 ## Table of contents
